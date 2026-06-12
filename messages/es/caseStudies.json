@@ -1,0 +1,359 @@
+{
+  "caseStudies": {
+    "hero": {
+      "badge": "Dos casos de éxito comprobados • Dos años de datos",
+      "title": "El modelo tradicional de asfalto",
+      "titleHighlight": "está roto.",
+      "titleLine2": "Aquí está la prueba de que se puede arreglar.",
+      "subtitle": "Vea cómo SmartSourcing USA ayudó a un contratista de pavimentación residencial y a una empresa comercial de asfalto a transformar sus operaciones de estimación—con números reales, resultados reales y ahorros reales.",
+      "metrics": [
+        {
+          "value": "8,033+",
+          "label": "Proyectos combinados"
+        },
+        {
+          "value": "$171.6M",
+          "label": "Valor combinado de licitaciones"
+        },
+        {
+          "value": "$75K+",
+          "label": "Ahorro anual (residencial)"
+        },
+        {
+          "value": "179%",
+          "label": "Más ingresos por licitación"
+        },
+        {
+          "value": "56%",
+          "label": "Aumento de capacidad de licitación"
+        }
+      ]
+    },
+    "whyAsphalt": {
+      "badge": "Nuestro enfoque en 2026",
+      "title": "Por qué asfalto.",
+      "titleHighlight": "Por qué ahora.",
+      "paragraph1": "No intentamos ser todo para todos. En 2026, SmartSourcing USA está enfocado al 100% en empresas de asfalto—y aquí está el porqué.",
+      "paragraph2BeforeBold1": "Tenemos ",
+      "paragraph2Bold1": "dos años completos de datos de producción",
+      "paragraph2Middle": " de operaciones de asfalto residencial y comercial. No es un programa piloto. No es una teoría. Es un ",
+      "paragraph2Bold2": "sistema probado en campo",
+      "paragraph2AfterBold2": " con números reales que demuestran que funciona—en distintos mercados, tipos de proyecto y tamaños de empresa.",
+      "paragraph3BeforeBold": "Creemos que nuestro modelo puede ",
+      "paragraph3Bold": "cambiar fundamentalmente la forma en que las empresas de asfalto estiman proyectos.",
+      "paragraph3AfterBold": " El modelo tradicional—donde los estimadores también son gerentes de proyecto, pierden horas en captura de datos y apuran licitaciones al final del día—ha sido el estándar de la industria durante décadas. Nuestros datos demuestran que hay una mejor forma. Una forma que produce más licitaciones, con mayor precisión, por una fracción del costo.",
+      "paragraph4BeforeBold": "En 2024, desplegamos un estimador remoto en una operación comercial de asfalto y vimos cómo superó el rendimiento combinado de tres estimadores en EE. UU. En 2025, integramos un equipo remoto en una empresa de pavimentación residencial de alto volumen y les ayudamos a dar soporte a más de 7,400 proyectos mientras reducían su equipo de campo. ",
+      "paragraph4Bold": "Dos años. Dos mercados. Un modelo comprobado.",
+      "stats": [
+        {
+          "value": "2",
+          "label": "Años de datos de producción"
+        },
+        {
+          "value": "2",
+          "label": "Segmentos de mercado comprobados"
+        },
+        {
+          "value": "1",
+          "label": "Misión: redefinir la estimación de asfalto"
+        }
+      ]
+    },
+    "painPoints": {
+      "title": "¿Le suena familiar?",
+      "subtitle": "Estos son los principales retos que están aplastando a las empresas de asfalto en este momento.",
+      "items": [
+        {
+          "emoji": "👷",
+          "title": "Escasez de mano de obra",
+          "description": "El 92% de las empresas no encuentra trabajadores calificados. El 41% de la fuerza laboral de asfalto se jubila para 2031."
+        },
+        {
+          "emoji": "📉",
+          "title": "Márgenes mínimos",
+          "description": "Márgenes de utilidad del 3-6% con costos crecientes de materiales, mano de obra y equipo."
+        },
+        {
+          "emoji": "⏱️",
+          "title": "Tiempo desperdiciado del estimador",
+          "description": "Los estimadores dedican más del 25% de su día a captura de datos y tareas de oficina en lugar de estimar."
+        },
+        {
+          "emoji": "❌",
+          "title": "Errores de estimación",
+          "description": "Las licitaciones apresuradas cuestan a contratistas medianos $80K-$150K al año en sobrecostos."
+        },
+        {
+          "emoji": "🔀",
+          "title": "Roles combinados PM/estimador",
+          "description": "El modelo de doble rol parece más barato en el papel, pero falla en la práctica."
+        }
+      ]
+    },
+    "studies": {
+      "title": "Dos mercados. Dos modelos.",
+      "titleHighlight": "Una solución.",
+      "subtitle": "SmartSourcing USA desplegó estimadores remotos en operaciones de asfalto residencial y comercial—con resultados transformadores en ambos.",
+      "residential": {
+        "badge": "Residencial",
+        "title": "Contratista de pavimentación de alto volumen",
+        "location": "Nueva York • Entradas, sellado, proyectos HOA",
+        "metrics": [
+          {
+            "label": "Total de proyectos con soporte",
+            "value": "7,436"
+          },
+          {
+            "label": "Valor promedio del proyecto",
+            "value": "$4,850"
+          },
+          {
+            "label": "Valor total en dólares con soporte",
+            "value": "$36.1M"
+          },
+          {
+            "label": "Takeoffs de entradas",
+            "value": "2,743"
+          },
+          {
+            "label": "Tareas de programación",
+            "value": "2,567"
+          },
+          {
+            "label": "Mediciones aéreas",
+            "value": "93"
+          },
+          {
+            "label": "Mediciones fuera de temporada",
+            "value": "1,340"
+          },
+          {
+            "label": "Preparación de trabajos (sellado/imprimación/capa final)",
+            "value": "690"
+          },
+          {
+            "label": "Proyectos HOA gestionados",
+            "value": "3"
+          },
+          {
+            "label": "Precisión de datos en CRM",
+            "value": "100%"
+          },
+          {
+            "label": "Tiempo recuperado por estimador/día",
+            "value": "100 min"
+          },
+          {
+            "label": "Reducción del equipo de campo",
+            "value": "3 → 2"
+          }
+        ],
+        "highlightValue": "$75,000",
+        "highlightLabel": "Ahorro anual por optimización del equipo de campo y reducción de plantilla"
+      },
+      "commercial": {
+        "badge": "Comercial",
+        "title": "Subcontratista comercial de asfalto",
+        "location": "EE. UU. • Estacionamientos, municipal, proyectos DOT",
+        "metrics": [
+          {
+            "label": "Total de licitaciones producidas (2025)",
+            "value": "597"
+          },
+          {
+            "label": "Valor total en dólares de licitaciones",
+            "value": "$135.5M"
+          },
+          {
+            "label": "Valor promedio de licitación",
+            "value": "$226,951"
+          },
+          {
+            "label": "Potencial de ingresos por licitación",
+            "value": "$65,139/hr"
+          },
+          {
+            "label": "Aumento de capacidad de licitación (interanual)",
+            "value": "+56%"
+          },
+          {
+            "label": "Reducción de producción del dueño",
+            "value": "-50%"
+          },
+          {
+            "label": "Remoto vs. producción de 3 estimadores en EE. UU.",
+            "value": "597 vs 447"
+          },
+          {
+            "label": "Costo por licitación (remoto)",
+            "value": "$65.33"
+          },
+          {
+            "label": "Costo por licitación (promedio EE. UU.)",
+            "value": "$418.85"
+          },
+          {
+            "label": "Crecimiento de ingresos (2023→2024)",
+            "value": "$5M → $10M"
+          }
+        ],
+        "highlightValue": "179% más",
+        "highlightLabel": "Potencial de ingresos por licitación vs. el estimador en EE. UU. más cercano"
+      },
+      "comparison": {
+        "headerMetric": "Métrica",
+        "headerResidential": "🏠 Residencial (pavimentación NY)",
+        "headerCommercial": "🏗️ Comercial (subcontratista de asfalto)",
+        "rows": [
+          {
+            "metric": "Tamaño del equipo remoto",
+            "residential": "3 integrantes de equipo remoto",
+            "commercial": "1 estimador remoto"
+          },
+          {
+            "metric": "Salario del trabajador remoto",
+            "residential": "~$39,000/año",
+            "commercial": "$39,000/año"
+          },
+          {
+            "metric": "Volumen de proyectos",
+            "residential": "7,436 tareas en una temporada",
+            "commercial": "597 licitaciones en un año"
+          },
+          {
+            "metric": "Valor en dólares con soporte",
+            "residential": "$36.1M (7,436 × $4,850 prom.)",
+            "commercial": "$135.5M en valor de licitaciones"
+          },
+          {
+            "metric": "Costo por licitación/tarea (remoto)",
+            "residential": "Fracción del costo en EE. UU.",
+            "commercial": "$65.33 vs. $418.85 (EE. UU.)"
+          },
+          {
+            "metric": "Impacto en el equipo de campo",
+            "residential": "Reducción de 3 → 2 estimadores",
+            "commercial": "El dueño liberó el 50% de su tiempo"
+          },
+          {
+            "metric": "Ahorro anual",
+            "residential": "~$75,000",
+            "commercial": "~$242,000 (costo equivalente en EE. UU.)"
+          },
+          {
+            "metric": "Innovación clave",
+            "residential": "Mediciones aéreas con precisión de campo; análisis de tiempos",
+            "commercial": "Superó a 3 estimadores en EE. UU. combinados; +56% interanual en licitaciones"
+          },
+          {
+            "metric": "Respuesta del cliente",
+            "residential": "Solicitó estimadores remotos adicionales",
+            "commercial": "Los ingresos se duplicaron de $5M a $10M"
+          }
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo",
+      "titleHighlight": "funciona",
+      "subtitle": "De la primera conversación a la integración completa en 90 días o menos.",
+      "steps": [
+        {
+          "title": "Llamada de descubrimiento",
+          "description": "Conocemos su proceso actual, puntos de dolor y objetivos. Sin discurso de ventas—solo una evaluación honesta de si el soporte remoto encaja en su operación."
+        },
+        {
+          "title": "Talento a la medida",
+          "description": "Reclutamos, evaluamos y presentamos candidatos con experiencia en construcción—ingenieros civiles capacitados en sus herramientas, especificaciones y mercado."
+        },
+        {
+          "title": "Incorporación y modo sombra",
+          "description": "Días 1-30: Interacción diaria, capacitación en sus sistemas, acompañamiento a su estimador actual. Su equipo mantiene el control total."
+        },
+        {
+          "title": "Escalamiento y refinamiento",
+          "description": "Días 31-60: Mayor autonomía con supervisión puntual. Sesiones de retroalimentación 2-3 veces por semana. Auditoría de calidad por su estimador líder."
+        },
+        {
+          "title": "Autonomía completa",
+          "description": "Días 61-90: Estimación totalmente autónoma con coordinación obligatoria dos veces por semana. Su integrante remoto ya produce a velocidad completa."
+        },
+        {
+          "title": "Optimizar y escalar",
+          "description": "Monitoreamos el desempeño de forma continua, ofrecemos capacitación fuera de temporada sin costo y escalamos su equipo conforme crece su negocio."
+        }
+      ]
+    },
+    "financialCase": {
+      "title": "El",
+      "titleHighlight": "caso financiero",
+      "titleSuffix": "de la estimación remota",
+      "subtitle": "Lo que los dueños quieren ver antes de tomar la decisión.",
+      "cards": [
+        {
+          "icon": "💰",
+          "title": "50-60% de ahorro en costos",
+          "description": "Estimador remoto: $40K-$48K/año total vs. $108K-$142K interno (salario + prestaciones + oficina)."
+        },
+        {
+          "icon": "📈",
+          "title": "2-3x capacidad de licitación",
+          "description": "Pase de 3-5 estimaciones/semana a 8-12. Más licitaciones = más ganadas = $200K-$500K de ingresos adicionales."
+        },
+        {
+          "icon": "⏰",
+          "title": "Recuperación en 60-90 días",
+          "description": "La mayoría de los contratistas ve ROI positivo en el primer trimestre gracias a mayor capacidad y precisión."
+        },
+        {
+          "icon": "🎯",
+          "title": "15-25% de mejora en precisión",
+          "description": "Los estimadores dedicados detectan más alcance, reduciendo $80K-$150K en sobrecostos anuales."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Cero riesgo para empezar",
+          "description": "Piloto de 90 días con cancelación mes a mes. Garantía de reemplazo si el desempeño no cumple expectativas."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas que hacen",
+      "titleHighlight": "los dueños",
+      "items": [
+        {
+          "question": "\"¿No sentirá mi estimador actual que lo estoy reemplazando?\"",
+          "answer": "No se trata de reemplazo—se trata de amplificación. Su estimador actual se convierte en capacitador y auditor. Los días 1-30 implican interacción diaria; del día 61-90 el estimador remoto trabaja de forma autónoma con coordinación dos veces por semana. Y la matemática del bono beneficia a todos: $50K divididos entre 8 en lugar de 10 = un aumento del 25% para su equipo local."
+        },
+        {
+          "question": "\"Mi temporada dura solo 8-9 meses. ¿Seguirán disponibles el próximo año?\"",
+          "answer": "Sí. Nuestros contratos incluyen capacitación fuera de temporada sin costo adicional para usted. Del 1 de dic. al 15 de feb., SmartSourcing cubre su salario mientras brinda capacitación adicional según su retroalimentación—especificaciones, cursos y desarrollo de habilidades—para que regresen más fuertes la próxima temporada."
+        },
+        {
+          "question": "\"¿Cómo sé que realmente están trabajando?\"",
+          "answer": "Trabajar de forma remota para un cliente en EE. UU. es un privilegio que sostiene a su familia. Si no rinden, encontrar trabajo local equivalente es extremadamente difícil. Más allá de la motivación, verá su producción a diario—licitaciones, datos capturados, agendas creadas. El trabajo habla por sí mismo."
+        },
+        {
+          "question": "\"¿Están seguros los datos de mis licitaciones?\"",
+          "answer": "Cada estimador remoto trabaja en sus sistemas seguros, en dispositivos bloqueados, por VPN cifrada con autenticación multifactor, bajo NDAs estrictos y acceso por roles. Nunca almacenan archivos localmente. Si tiene un departamento de TI dedicado, seguiremos sus políticas de seguridad al pie de la letra."
+        },
+        {
+          "question": "\"¿Qué pasa si no funciona?\"",
+          "answer": "Comenzamos con un piloto de 60-90 días. Si no encaja, proporcionamos un estimador de reemplazo sin costo adicional en 2 semanas. Nunca queda atrapado. La cancelación mes a mes siempre está disponible."
+        },
+        {
+          "question": "\"¿Cuánto de mi tiempo requiere la incorporación?\"",
+          "answer": "Mes 1: 3-4 horas/semana. Mes 2: 1-2 horas/semana. Mes 3+: 30-60 minutos al mes. Nos encargamos de reclutamiento, evaluación, capacitación técnica y configuración de sistemas. Usted revisa trabajo en vivo y dice \"más de esto, menos de aquello.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para arreglar su",
+      "titleHighlight": "modelo de estimación?",
+      "description": "Dos empresas de asfalto confiaron en nosotros. Ambas transformaron sus operaciones en una temporada. Dos años de datos demuestran que el modelo funciona. Su empresa podría ser la siguiente.",
+      "primaryButton": "Agendar una llamada de descubrimiento",
+      "secondaryButton": "Síganos en LinkedIn",
+      "footnote": "O agende una llamada de descubrimiento gratuita de 20 minutos para hablar de sus retos específicos."
+    }
+  }
+}

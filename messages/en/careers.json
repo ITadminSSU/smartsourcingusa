@@ -1,0 +1,16 @@
+{
+  "careers": {
+    "hero": {
+      "title": "Careers at",
+      "titleHighlight": "SmartSourcing USA"
+    },
+    "comingSoon": {
+      "badge": "Coming Soon",
+      "title": "Our careers page is on the way",
+      "description": "We're building a dedicated place to explore roles and join our team across the Philippines, Mexico, and remote opportunities with U.S. clients.",
+      "note": "We plan to connect this page with our hiring platform (including Breezy) soon. For now, we'd love to hear from you—reach out and we'll keep you in mind when positions open.",
+      "contactButton": "Get in Touch",
+      "homeButton": "Back to Home"
+    }
+  }
+}

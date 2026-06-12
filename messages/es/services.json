@@ -1,0 +1,244 @@
+{
+  "services": {
+    "operationsAdmin": {
+      "hero": {
+        "title": "Soporte de Operaciones y Administración",
+        "subtitle": "Asistentes ejecutivos, coordinadores, programadores y soporte de documentación que mantienen sus operaciones funcionando sin contratiempos."
+      },
+      "intro": {
+        "title": "Optimice sus operaciones",
+        "p1": "Nuestros equipos de soporte operativo y administrativo están diseñados para integrarse sin fricción a su flujo de trabajo, atendiendo las tareas del día a día que impulsan su negocio. Ofrecemos equipos basados en conexión en Filipinas y México que comprenden su cultura empresarial y trabajan como una extensión de su personal principal.",
+        "p2": "A diferencia de los proveedores de outsourcing transaccional, nuestros equipos construyen relaciones de largo plazo con su organización. Aprenden sus procesos, entienden sus prioridades y se adaptan a su forma de trabajar, generando continuidad y eficiencia que el outsourcing tradicional no puede igualar."
+      },
+      "features": [
+        {
+          "title": "Soporte ejecutivo",
+          "description": "Asistentes ejecutivos dedicados que gestionan calendarios, coordinan reuniones, atienden comunicaciones y permiten que su liderazgo se enfoque en prioridades estratégicas."
+        },
+        {
+          "title": "Coordinación y programación",
+          "description": "Coordinadores expertos que administran agendas complejas, coordinan entre equipos, gestionan la logística y aseguran operaciones fluidas en todos los departamentos."
+        },
+        {
+          "title": "Documentación",
+          "description": "Soporte profesional en documentación de informes, presentaciones, procesos y mantenimiento de registros organizados que respaldan sus operaciones."
+        },
+        {
+          "title": "Tareas administrativas",
+          "description": "Soporte administrativo integral que incluye captura de datos, gestión de archivos, investigación, coordinación con proveedores y otras tareas esenciales para su operación diaria."
+        }
+      ],
+      "benefits": {
+        "title": "¿Por qué elegir nuestro soporte de operaciones?",
+        "items": [
+          {
+            "title": "Integración a largo plazo",
+            "description": "Nuestros equipos se integran a sus operaciones, aprenden sus sistemas y procesos para lograr eficiencia sostenida."
+          },
+          {
+            "title": "Alineación cultural",
+            "description": "Asignamos integrantes que se alinean con la cultura y el estilo de comunicación de su empresa."
+          },
+          {
+            "title": "Capacidad escalable",
+            "description": "Escale su soporte administrativo según sus necesidades, sin la carga de contrataciones de tiempo completo."
+          },
+          {
+            "title": "Aseguramiento de calidad",
+            "description": "Controles de calidad rigurosos garantizan resultados consistentes y de alto nivel que cumplen sus estándares."
+          }
+        ]
+      },
+      "sidebarFeatures": [
+        "Soporte ejecutivo",
+        "Coordinación y programación",
+        "Documentación",
+        "Tareas administrativas"
+      ],
+      "cta": {
+        "title": "¿Listo para optimizar sus operaciones?",
+        "description": "Conversemos sobre cómo nuestro soporte operativo y administrativo puede ayudar a que su negocio funcione con mayor eficiencia."
+      }
+    },
+    "customerSupport": {
+      "hero": {
+        "title": "Atención al Cliente y Experiencia (CX)",
+        "subtitle": "Equipos de soporte por teléfono, chat y correo capacitados para reflejar la voz de su marca y brindar un servicio excepcional."
+      },
+      "intro": {
+        "title": "Eleve la experiencia de sus clientes",
+        "p1": "Nuestros equipos de atención al cliente van más allá de un call center: son embajadores de su marca que comprenden su negocio, sus clientes y sus valores. Construimos equipos basados en conexión en Filipinas y México que se vuelven parte integral de su estrategia de experiencia del cliente.",
+        "p2": "Cada integrante recibe capacitación integral sobre sus productos, servicios y voz de marca. No solo siguen guiones: construyen relaciones con sus clientes, resuelven problemas y generan experiencias positivas que impulsan la lealtad y la retención."
+      },
+      "features": [
+        {
+          "title": "Soporte multicanal",
+          "description": "Atención integral por teléfono, correo, chat en vivo, redes sociales y otros canales que prefieran sus clientes. La integración fluida garantiza una experiencia consistente en todos los puntos de contacto."
+        },
+        {
+          "title": "Alineación con la marca",
+          "description": "Equipos capacitados para comprender y representar la voz, los valores y la filosofía de servicio de su marca. Cada interacción refleja su identidad."
+        },
+        {
+          "title": "Disponibilidad 24/7",
+          "description": "Cobertura de soporte las 24 horas para que sus clientes siempre tengan a quién acudir, sin importar la zona horaria o el día de la semana."
+        },
+        {
+          "title": "Aseguramiento de calidad",
+          "description": "Monitoreo, capacitación y retroalimentación rigurosos garantizan calidad constante y mejora continua en cada interacción con el cliente."
+        }
+      ],
+      "benefits": {
+        "title": "Por qué destaca nuestro soporte al cliente",
+        "items": [
+          {
+            "title": "Enfoque basado en conexión",
+            "description": "Nuestros equipos construyen relaciones de largo plazo con sus clientes, no solo interacciones transaccionales."
+          },
+          {
+            "title": "Conocimiento profundo del producto",
+            "description": "La capacitación integral asegura que su equipo de soporte domine sus productos y servicios a fondo."
+          },
+          {
+            "title": "Equipos escalables",
+            "description": "Escale su capacidad de soporte según la demanda, sin la carga de contratar y capacitar personal adicional."
+          },
+          {
+            "title": "Métricas de desempeño",
+            "description": "Reportes periódicos sobre tiempo de respuesta, tasa de resolución y satisfacción del cliente lo mantienen informado."
+          }
+        ]
+      },
+      "sidebarFeatures": [
+        "Soporte multicanal",
+        "Alineación con la marca",
+        "Disponibilidad 24/7",
+        "Aseguramiento de calidad"
+      ],
+      "cta": {
+        "title": "¿Listo para elevar la experiencia de sus clientes?",
+        "description": "Conversemos sobre cómo nuestros equipos de atención al cliente pueden ayudarle a brindar un servicio excepcional."
+      }
+    },
+    "backOfficeFinance": {
+      "hero": {
+        "title": "Soporte de Back-Office y Finanzas",
+        "subtitle": "Equipos de facturación, cuentas por pagar, documentación e informes que gestionan flujos financieros críticos."
+      },
+      "intro": {
+        "title": "Optimice sus operaciones financieras",
+        "p1": "Las operaciones financieras exigen precisión, atención al detalle y confianza. Nuestros equipos de back-office y finanzas están preparados para manejar sus flujos financieros más críticos con la exactitud y confiabilidad que su negocio requiere.",
+        "p2": "Ofrecemos equipos basados en conexión en Filipinas y México que se integran profundamente a sus procesos financieros. Comprenden sus sistemas, flujos de trabajo y estándares, garantizando operaciones financieras consistentes y precisas que impulsan el crecimiento de su empresa."
+      },
+      "features": [
+        {
+          "title": "Procesamiento financiero",
+          "description": "Procesamiento preciso y oportuno de facturas, pagos, recibos y transacciones financieras. Equipos capacitados en sus sistemas y procedimientos contables."
+        },
+        {
+          "title": "Reportes y analítica",
+          "description": "Reportes financieros integrales, análisis de datos e insights que respaldan decisiones informadas. Informes periódicos adaptados a sus necesidades."
+        },
+        {
+          "title": "Gestión documental",
+          "description": "Administración ordenada de documentos, registros y archivos financieros. Almacenamiento seguro y sistemas de consulta que mantienen el cumplimiento y la accesibilidad."
+        },
+        {
+          "title": "Cuentas por pagar",
+          "description": "Gestión eficiente de pagos a proveedores, procesamiento de facturas, programación de pagos y relación con proveedores para optimizar su flujo de efectivo."
+        }
+      ],
+      "benefits": {
+        "title": "¿Por qué confiar sus operaciones financieras en nosotros?",
+        "items": [
+          {
+            "title": "Exactitud y cumplimiento",
+            "description": "Controles de calidad y medidas de cumplimiento rigurosos garantizan precisión y adherencia a la normativa financiera."
+          },
+          {
+            "title": "Seguridad y confidencialidad",
+            "description": "Protocolos de seguridad robustos y acuerdos de confidencialidad protegen su información financiera sensible."
+          },
+          {
+            "title": "Integración de sistemas",
+            "description": "Equipos capacitados en su software y sistemas contables específicos para una integración sin fricciones."
+          },
+          {
+            "title": "Capacidad escalable",
+            "description": "Escale su soporte de operaciones financieras según el volumen, sin la carga de contratar personal adicional de tiempo completo."
+          }
+        ]
+      },
+      "sidebarFeatures": [
+        "Procesamiento financiero",
+        "Reportes y analítica",
+        "Gestión documental",
+        "Cuentas por pagar"
+      ],
+      "cta": {
+        "title": "¿Listo para optimizar sus operaciones financieras?",
+        "description": "Conversemos sobre cómo nuestro soporte de back-office y finanzas puede agilizar sus flujos financieros."
+      }
+    },
+    "constructionField": {
+      "hero": {
+        "title": "Soporte de Construcción y Campo",
+        "subtitle": "Soporte en cubicaciones, documentación, coordinación de proyectos y seguimiento con proveedores para empresas de construcción."
+      },
+      "intro": {
+        "title": "Respaldamos sus operaciones de construcción",
+        "p1": "Las empresas de construcción enfrentan retos únicos: proyectos complejos, plazos ajustados, múltiples proveedores y amplios requisitos de documentación. Nuestros equipos de soporte en construcción y campo están diseñados específicamente para atender las necesidades especializadas del sector.",
+        "p2": "Ofrecemos equipos basados en conexión en Filipinas y México que comprenden flujos de trabajo, terminología y estándares de la industria de la construcción. Se integran sin fricción a sus operaciones y asumen funciones críticas de soporte que permiten a sus equipos de campo enfocarse en lo que mejor hacen: construir."
+      },
+      "features": [
+        {
+          "title": "Coordinación de proyectos",
+          "description": "Soporte integral en coordinación de proyectos: programación, asignación de recursos, seguimiento de avance y comunicación entre equipos de campo, oficina e interesados."
+        },
+        {
+          "title": "Soporte en cubicaciones",
+          "description": "Cubicaciones precisas, cálculo de materiales y soporte en estimación de costos. Equipos capacitados en software de estimación y metodologías estándar del sector."
+        },
+        {
+          "title": "Gestión de proveedores",
+          "description": "Comunicación eficiente con proveedores, seguimiento de pedidos, coordinación de entregas y gestión de relaciones para que materiales y servicios lleguen a tiempo y dentro del presupuesto."
+        },
+        {
+          "title": "Documentación de campo",
+          "description": "Soporte documental integral: reportes diarios, fotos de avance, órdenes de cambio, documentación de seguridad y registros de cumplimiento que mantienen los proyectos organizados y en regla."
+        }
+      ],
+      "benefits": {
+        "title": "Por qué las empresas de construcción nos eligen",
+        "items": [
+          {
+            "title": "Experiencia en el sector",
+            "description": "Equipos capacitados en terminología, flujos de trabajo y software y procesos específicos de la construcción."
+          },
+          {
+            "title": "Dominio de software",
+            "description": "Experiencia en software de gestión de construcción, herramientas de estimación y plataformas de administración de proyectos."
+          },
+          {
+            "title": "Equipos escalables",
+            "description": "Escale su capacidad de soporte según la carga de proyectos y la demanda estacional, sin la carga de contrataciones temporales."
+          },
+          {
+            "title": "Calidad y precisión",
+            "description": "Controles de calidad rigurosos garantizan cubicaciones, documentación y coordinación precisas que los proyectos de construcción exigen."
+          }
+        ]
+      },
+      "sidebarFeatures": [
+        "Coordinación de proyectos",
+        "Soporte en cubicaciones",
+        "Gestión de proveedores",
+        "Documentación de campo"
+      ],
+      "cta": {
+        "title": "¿Listo para fortalecer sus operaciones de construcción?",
+        "description": "Conversemos sobre cómo nuestro soporte de construcción y campo puede ayudar a que sus proyectos funcionen con mayor eficiencia."
+      }
+    }
+  }
+}

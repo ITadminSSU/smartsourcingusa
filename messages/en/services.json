@@ -1,0 +1,244 @@
+{
+  "services": {
+    "operationsAdmin": {
+      "hero": {
+        "title": "Operations & Admin Support",
+        "subtitle": "Executive assistants, coordinators, schedulers, and documentation support that keeps your operations running smoothly."
+      },
+      "intro": {
+        "title": "Streamline Your Operations",
+        "p1": "Our operations and administrative support teams are designed to integrate seamlessly into your workflow, handling the day-to-day tasks that keep your business moving forward. We provide connection-based teams in the Philippines and Mexico who understand your business culture and work as an extension of your core staff.",
+        "p2": "Unlike transactional outsourcing vendors, our teams build long-term relationships with your organization. They learn your processes, understand your priorities, and adapt to your working style—creating continuity and efficiency that traditional outsourcing can't match."
+      },
+      "features": [
+        {
+          "title": "Executive Support",
+          "description": "Dedicated executive assistants who manage calendars, coordinate meetings, handle communications, and ensure your leadership team stays focused on strategic priorities."
+        },
+        {
+          "title": "Coordination & Scheduling",
+          "description": "Expert coordinators who manage complex schedules, coordinate between teams, handle logistics, and ensure smooth operations across departments."
+        },
+        {
+          "title": "Documentation",
+          "description": "Professional documentation support for reports, presentations, process documentation, and maintaining organized records that support your business operations."
+        },
+        {
+          "title": "Administrative Tasks",
+          "description": "Comprehensive administrative support including data entry, file management, research, vendor coordination, and other essential tasks that keep your business running."
+        }
+      ],
+      "benefits": {
+        "title": "Why Choose Our Operations Support?",
+        "items": [
+          {
+            "title": "Long-Term Integration",
+            "description": "Our teams become embedded in your operations, learning your systems and processes for lasting efficiency."
+          },
+          {
+            "title": "Cultural Alignment",
+            "description": "We match team members who align with your company culture and communication style."
+          },
+          {
+            "title": "Scalable Capacity",
+            "description": "Scale your administrative support up or down based on your needs without the overhead of full-time hires."
+          },
+          {
+            "title": "Quality Assurance",
+            "description": "Rigorous quality control ensures consistent, high-quality output that meets your standards."
+          }
+        ]
+      },
+      "sidebarFeatures": [
+        "Executive Support",
+        "Coordination & Scheduling",
+        "Documentation",
+        "Administrative Tasks"
+      ],
+      "cta": {
+        "title": "Ready to Streamline Your Operations?",
+        "description": "Let's discuss how our operations and administrative support can help your business run more efficiently."
+      }
+    },
+    "customerSupport": {
+      "hero": {
+        "title": "Customer Support & CX",
+        "subtitle": "Phone, chat, and email support teams trained to mirror your brand voice and deliver exceptional service."
+      },
+      "intro": {
+        "title": "Elevate Your Customer Experience",
+        "p1": "Our customer support teams are more than just call centers—they're brand ambassadors who understand your business, your customers, and your values. We build connection-based support teams in the Philippines and Mexico who become an integral part of your customer experience strategy.",
+        "p2": "Every team member undergoes comprehensive training on your products, services, and brand voice. They're not just following scripts—they're building relationships with your customers, solving problems, and creating positive experiences that drive loyalty and retention."
+      },
+      "features": [
+        {
+          "title": "Multi-Channel Support",
+          "description": "Comprehensive support across phone, email, live chat, social media, and other channels your customers prefer. Seamless integration ensures consistent experience across all touchpoints."
+        },
+        {
+          "title": "Brand Alignment",
+          "description": "Teams trained to understand and embody your brand voice, values, and customer service philosophy. Every interaction reflects your brand identity."
+        },
+        {
+          "title": "24/7 Availability",
+          "description": "Round-the-clock support coverage that ensures your customers always have someone to help, regardless of time zone or day of the week."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Rigorous monitoring, training, and feedback systems ensure consistent quality and continuous improvement in every customer interaction."
+        }
+      ],
+      "benefits": {
+        "title": "Why Our Customer Support Stands Out",
+        "items": [
+          {
+            "title": "Connection-Based Approach",
+            "description": "Our teams build long-term relationships with your customers, not just transactional interactions."
+          },
+          {
+            "title": "Deep Product Knowledge",
+            "description": "Comprehensive training ensures your support team understands your products and services inside and out."
+          },
+          {
+            "title": "Scalable Teams",
+            "description": "Easily scale your support capacity up or down based on demand without the overhead of hiring and training."
+          },
+          {
+            "title": "Performance Metrics",
+            "description": "Regular reporting on key metrics like response time, resolution rate, and customer satisfaction keeps you informed."
+          }
+        ]
+      },
+      "sidebarFeatures": [
+        "Multi-Channel Support",
+        "Brand Alignment",
+        "24/7 Availability",
+        "Quality Assurance"
+      ],
+      "cta": {
+        "title": "Ready to Elevate Your Customer Experience?",
+        "description": "Let's discuss how our customer support teams can help you deliver exceptional service."
+      }
+    },
+    "backOfficeFinance": {
+      "hero": {
+        "title": "Back-Office & Finance Support",
+        "subtitle": "Billing, accounts payable, documentation, and reporting teams handling critical financial workflows."
+      },
+      "intro": {
+        "title": "Streamline Your Financial Operations",
+        "p1": "Financial operations require precision, attention to detail, and trust. Our back-office and finance support teams are built to handle your most critical financial workflows with the accuracy and reliability your business demands.",
+        "p2": "We provide connection-based teams in the Philippines and Mexico who become deeply integrated into your financial processes. They understand your systems, your workflows, and your standards—ensuring consistent, accurate financial operations that support your business growth."
+      },
+      "features": [
+        {
+          "title": "Financial Processing",
+          "description": "Accurate and timely processing of invoices, payments, receipts, and financial transactions. Teams trained in your accounting systems and procedures."
+        },
+        {
+          "title": "Reporting & Analytics",
+          "description": "Comprehensive financial reporting, data analysis, and insights that help you make informed business decisions. Regular reporting tailored to your needs."
+        },
+        {
+          "title": "Document Management",
+          "description": "Organized management of financial documents, records, and files. Secure storage and easy retrieval systems that maintain compliance and accessibility."
+        },
+        {
+          "title": "Accounts Payable",
+          "description": "Efficient management of vendor payments, invoice processing, payment scheduling, and vendor relationship management to keep your cash flow optimized."
+        }
+      ],
+      "benefits": {
+        "title": "Why Trust Us With Your Financial Operations?",
+        "items": [
+          {
+            "title": "Accuracy & Compliance",
+            "description": "Rigorous quality control and compliance measures ensure accuracy and adherence to financial regulations."
+          },
+          {
+            "title": "Security & Confidentiality",
+            "description": "Robust security protocols and confidentiality agreements protect your sensitive financial information."
+          },
+          {
+            "title": "System Integration",
+            "description": "Teams trained on your specific accounting software and systems for seamless integration."
+          },
+          {
+            "title": "Scalable Capacity",
+            "description": "Scale your financial operations support based on volume without the overhead of additional full-time staff."
+          }
+        ]
+      },
+      "sidebarFeatures": [
+        "Financial Processing",
+        "Reporting & Analytics",
+        "Document Management",
+        "Accounts Payable"
+      ],
+      "cta": {
+        "title": "Ready to Optimize Your Financial Operations?",
+        "description": "Let's discuss how our back-office and finance support can streamline your financial workflows."
+      }
+    },
+    "constructionField": {
+      "hero": {
+        "title": "Construction & Field Support",
+        "subtitle": "Takeoff support, documentation, project coordination, and vendor follow-up for construction firms."
+      },
+      "intro": {
+        "title": "Support Your Construction Operations",
+        "p1": "Construction firms face unique challenges: complex projects, tight deadlines, multiple vendors, and extensive documentation requirements. Our construction and field support teams are specifically designed to handle the specialized needs of construction companies.",
+        "p2": "We provide connection-based teams in the Philippines and Mexico who understand construction workflows, terminology, and industry standards. They integrate seamlessly into your operations, handling critical support functions that free your field teams to focus on what they do best—building."
+      },
+      "features": [
+        {
+          "title": "Project Coordination",
+          "description": "Comprehensive project coordination support including scheduling, resource allocation, progress tracking, and communication between field teams, office staff, and stakeholders."
+        },
+        {
+          "title": "Takeoff Support",
+          "description": "Accurate quantity takeoffs, material calculations, and cost estimation support. Teams trained in construction estimating software and industry-standard methodologies."
+        },
+        {
+          "title": "Vendor Management",
+          "description": "Efficient vendor communication, order tracking, delivery coordination, and relationship management to ensure materials and services arrive on time and on budget."
+        },
+        {
+          "title": "Field Documentation",
+          "description": "Comprehensive documentation support including daily reports, progress photos, change orders, safety documentation, and compliance records that keep projects organized and compliant."
+        }
+      ],
+      "benefits": {
+        "title": "Why Construction Firms Choose Us",
+        "items": [
+          {
+            "title": "Industry Expertise",
+            "description": "Teams trained in construction terminology, workflows, and industry-specific software and processes."
+          },
+          {
+            "title": "Software Proficiency",
+            "description": "Expertise in construction management software, estimating tools, and project management platforms."
+          },
+          {
+            "title": "Scalable Teams",
+            "description": "Scale your support capacity based on project load and seasonal demands without the overhead of seasonal hiring."
+          },
+          {
+            "title": "Quality & Accuracy",
+            "description": "Rigorous quality control ensures accurate takeoffs, documentation, and coordination that construction projects demand."
+          }
+        ]
+      },
+      "sidebarFeatures": [
+        "Project Coordination",
+        "Takeoff Support",
+        "Vendor Management",
+        "Field Documentation"
+      ],
+      "cta": {
+        "title": "Ready to Enhance Your Construction Operations?",
+        "description": "Let's discuss how our construction and field support can help your projects run more efficiently."
+      }
+    }
+  }
+}

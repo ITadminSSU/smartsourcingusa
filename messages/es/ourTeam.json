@@ -1,0 +1,41 @@
+{
+  "ourTeam": {
+    "hero": {
+      "title": "Conozca a Nuestro Equipo",
+      "subtitle": "Las personas excepcionales detrás del éxito de SmartSourcing USA"
+    },
+    "sections": {
+      "executive": {
+        "title": "Equipo Ejecutivo",
+        "subtitle": "Liderazgo que guía nuestra visión, operaciones y crecimiento"
+      },
+      "operational": {
+        "title": "Nuestro Equipo",
+        "subtitle": "Los profesionales dedicados que impulsan nuestras operaciones diarias"
+      }
+    },
+    "card": {
+      "photoComingSoon": "Foto próximamente"
+    },
+    "cta": {
+      "title": "¿Listo para ir más allá del outsourcing hacia una conexión real?",
+      "tagline": "Menos outsourcing. Más conexión. Mejores resultados.",
+      "description": "Diseñemos un equipo remoto basado en la conexión en Filipinas y México que se sienta como una extensión de su personal principal, no como un proveedor externo.",
+      "button": "Reserve una Llamada de Estrategia de Conexión"
+    },
+    "members": {
+      "marianMinosa": {
+        "title": "Directora de Operaciones (COO)"
+      },
+      "jocelynFernando": {
+        "title": "Directora Financiera (CFO)"
+      },
+      "aileenJoyEgot": {
+        "title": "Directora de Personas (CPO)"
+      },
+      "alexisPacapac": {
+        "title": "Director de Información (CIO)"
+      }
+    }
+  }
+}

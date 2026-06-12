@@ -1,0 +1,57 @@
+{
+  "blog": {
+    "hero": {
+      "title": "Ideas y",
+      "titleHighlight": "perspectivas",
+      "subtitle": "Consejos de expertos para construir, gestionar y escalar equipos remotos de alto rendimiento."
+    },
+    "posts": [
+      {
+        "title": "Conexión vs. transacción: el costo oculto del outsourcing barato",
+        "excerpt": "Por qué elegir la tarifa por hora más baja suele costar más a largo plazo y cómo los modelos basados en conexión resuelven la rotación.",
+        "category": "Liderazgo de pensamiento",
+        "date": "12 de octubre de 2025",
+        "readTime": "5 min de lectura"
+      },
+      {
+        "title": "5 señales de que es momento de escalar su equipo globalmente",
+        "excerpt": "¿Rechaza trabajos? ¿Su equipo central está agotado? Indicadores clave de que está listo para ampliar capacidad con talento remoto.",
+        "category": "Estrategias de escalamiento",
+        "date": "28 de septiembre de 2025",
+        "readTime": "4 min de lectura"
+      },
+      {
+        "title": "Cómo incorporar equipos remotos de forma efectiva",
+        "excerpt": "Guía paso a paso para integrar integrantes globales en su cultura, herramientas y flujos desde el primer día.",
+        "category": "Guías de gestión",
+        "date": "15 de septiembre de 2025",
+        "readTime": "6 min de lectura"
+      },
+      {
+        "title": "El futuro de la estimación en construcción es remoto",
+        "excerpt": "Cómo las empresas de construcción innovadoras aprovechan talento global para ganar más licitaciones y reducir gastos generales.",
+        "category": "Tendencias del sector",
+        "date": "30 de agosto de 2025",
+        "readTime": "4 min de lectura"
+      },
+      {
+        "title": "Generar confianza a través de zonas horarias",
+        "excerpt": "Consejos prácticos para mantener comunicación y confianza con equipos en Filipinas y México.",
+        "category": "Cultura",
+        "date": "12 de agosto de 2025",
+        "readTime": "5 min de lectura"
+      },
+      {
+        "title": "Por qué elegimos México y Filipinas",
+        "excerpt": "Una mirada interna a nuestros centros de talento y por qué ofrecen la mejor combinación de habilidad, cultura y valor para empresas de EE. UU.",
+        "category": "Nuestro modelo",
+        "date": "24 de julio de 2025",
+        "readTime": "7 min de lectura"
+      }
+    ],
+    "newsletter": {
+      "title": "Manténgase conectado",
+      "description": "Reciba las últimas ideas sobre construcción de equipos remotos en su bandeja de entrada."
+    }
+  }
+}

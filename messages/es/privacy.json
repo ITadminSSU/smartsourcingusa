@@ -1,0 +1,37 @@
+{
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización: octubre de 2025",
+    "intro": "En Smartsourcing USA valoramos su privacidad y nos comprometemos a proteger su información personal. Esta política describe cómo recopilamos, usamos y protegemos sus datos cuando visita nuestro sitio o utiliza nuestros servicios.",
+    "sections": [
+      {
+        "title": "1. Información que recopilamos",
+        "paragraphs": [
+          "Recopilamos la información que usted nos proporciona directamente, por ejemplo al completar un formulario de contacto, agendar una consulta o suscribirse a nuestro boletín. Esto puede incluir nombre, correo electrónico, teléfono y datos de su empresa."
+        ]
+      },
+      {
+        "title": "2. Cómo usamos su información",
+        "paragraphs": ["Usamos la información recopilada para:"],
+        "list": [
+          "Proporcionar, mantener y mejorar nuestros servicios.",
+          "Comunicarnos con usted sobre servicios, actualizaciones y ofertas promocionales.",
+          "Responder a sus comentarios, preguntas y solicitudes.",
+          "Monitorear y analizar tendencias, uso y actividades relacionadas con nuestro sitio web."
+        ]
+      },
+      {
+        "title": "3. Seguridad de los datos",
+        "paragraphs": [
+          "Implementamos medidas de seguridad razonables para proteger su información personal contra acceso, alteración, divulgación o destrucción no autorizados. Sin embargo, ningún método de transmisión por Internet es 100 % seguro."
+        ]
+      },
+      {
+        "title": "4. Contáctenos",
+        "paragraphs": [
+          "Si tiene preguntas sobre esta política de privacidad, escríbanos a info@smartsourcingusa.com."
+        ]
+      }
+    ]
+  }
+}

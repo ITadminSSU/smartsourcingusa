@@ -1,0 +1,359 @@
+{
+  "caseStudies": {
+    "hero": {
+      "badge": "Two Proven Case Studies • Two Years of Data",
+      "title": "The Traditional Asphalt Model",
+      "titleHighlight": "Is Broken.",
+      "titleLine2": "Here's the Proof It Can Be Fixed.",
+      "subtitle": "See how SmartSourcing USA helped a residential paving contractor and a commercial asphalt company transform their estimating operations—with real numbers, real results, and real savings.",
+      "metrics": [
+        {
+          "value": "8,033+",
+          "label": "Combined Projects"
+        },
+        {
+          "value": "$171.6M",
+          "label": "Combined Bid Value"
+        },
+        {
+          "value": "$75K+",
+          "label": "Annual Savings (Residential)"
+        },
+        {
+          "value": "179%",
+          "label": "More Revenue Per Bid"
+        },
+        {
+          "value": "56%",
+          "label": "Bid Capacity Increase"
+        }
+      ]
+    },
+    "whyAsphalt": {
+      "badge": "Our Focus in 2026",
+      "title": "Why Asphalt.",
+      "titleHighlight": "Why Now.",
+      "paragraph1": "We're not trying to be everything to everyone. In 2026, SmartSourcing USA is laser-focused on asphalt companies—and here's why.",
+      "paragraph2BeforeBold1": "We have ",
+      "paragraph2Bold1": "two full years of production data",
+      "paragraph2Middle": " from both residential and commercial asphalt operations. That's not a pilot program. That's not a theory. That's a ",
+      "paragraph2Bold2": "tried-and-tested system",
+      "paragraph2AfterBold2": " with real numbers proving it works—across different markets, different project types, and different company sizes.",
+      "paragraph3BeforeBold": "We believe our model can ",
+      "paragraph3Bold": "fundamentally change the way asphalt companies estimate projects.",
+      "paragraph3AfterBold": " The traditional model—where estimators double as project managers, waste hours on data entry, and rush bids at the end of the day—has been the industry default for decades. Our data proves there's a better way. A way that produces more bids, at higher accuracy, for a fraction of the cost.",
+      "paragraph4BeforeBold": "In 2024, we deployed a remote estimator into a commercial asphalt operation and watched her outperform three U.S.-based estimators combined. In 2025, we embedded a remote team into a high-volume residential paving company and helped them support over 7,400 projects while reducing their field team. ",
+      "paragraph4Bold": "Two years. Two markets. One proven model.",
+      "stats": [
+        {
+          "value": "2",
+          "label": "Years of Production Data"
+        },
+        {
+          "value": "2",
+          "label": "Market Segments Proven"
+        },
+        {
+          "value": "1",
+          "label": "Mission: Redefine Asphalt Estimating"
+        }
+      ]
+    },
+    "painPoints": {
+      "title": "Sound Familiar?",
+      "subtitle": "These are the top challenges crushing asphalt companies right now.",
+      "items": [
+        {
+          "emoji": "👷",
+          "title": "Labor Shortages",
+          "description": "92% of firms can't find qualified workers. 41% of the asphalt workforce retires by 2031."
+        },
+        {
+          "emoji": "📉",
+          "title": "Razor-Thin Margins",
+          "description": "3-6% profit margins with rising material, labor, and equipment costs."
+        },
+        {
+          "emoji": "⏱️",
+          "title": "Wasted Estimator Time",
+          "description": "Estimators spending 25%+ of their day on data entry and office tasks instead of estimating."
+        },
+        {
+          "emoji": "❌",
+          "title": "Estimating Errors",
+          "description": "Rushed bids cost mid-sized contractors $80K-$150K per year in overruns."
+        },
+        {
+          "emoji": "🔀",
+          "title": "Blended PM/Estimator Roles",
+          "description": "The dual-role model looks cheaper on paper but breaks down in practice."
+        }
+      ]
+    },
+    "studies": {
+      "title": "Two Markets. Two Models.",
+      "titleHighlight": "One Solution.",
+      "subtitle": "SmartSourcing USA deployed remote estimators into both residential and commercial asphalt operations—with transformational results in both.",
+      "residential": {
+        "badge": "Residential",
+        "title": "High-Volume Paving Contractor",
+        "location": "New York • Driveways, Sealing, HOA Projects",
+        "metrics": [
+          {
+            "label": "Total Projects Supported",
+            "value": "7,436"
+          },
+          {
+            "label": "Average Project Value",
+            "value": "$4,850"
+          },
+          {
+            "label": "Total Dollar Value Supported",
+            "value": "$36.1M"
+          },
+          {
+            "label": "Driveway Takeoffs",
+            "value": "2,743"
+          },
+          {
+            "label": "Scheduling Tasks",
+            "value": "2,567"
+          },
+          {
+            "label": "Aerial Measurements",
+            "value": "93"
+          },
+          {
+            "label": "Off-Season Measurements",
+            "value": "1,340"
+          },
+          {
+            "label": "Job Preparations (Sealing/Binder/Topcoat)",
+            "value": "690"
+          },
+          {
+            "label": "HOA Projects Managed",
+            "value": "3"
+          },
+          {
+            "label": "CRM Data Accuracy",
+            "value": "100%"
+          },
+          {
+            "label": "Time Recovered Per Estimator/Day",
+            "value": "100 min"
+          },
+          {
+            "label": "Field Team Reduction",
+            "value": "3 → 2"
+          }
+        ],
+        "highlightValue": "$75,000",
+        "highlightLabel": "Annual savings from field team optimization & headcount reduction"
+      },
+      "commercial": {
+        "badge": "Commercial",
+        "title": "Commercial Asphalt Subcontractor",
+        "location": "U.S. • Parking Lots, Municipal, DOT Projects",
+        "metrics": [
+          {
+            "label": "Total Bids Produced (2025)",
+            "value": "597"
+          },
+          {
+            "label": "Total Bid Dollar Value",
+            "value": "$135.5M"
+          },
+          {
+            "label": "Average Bid Value",
+            "value": "$226,951"
+          },
+          {
+            "label": "Revenue Potential Per Bid",
+            "value": "$65,139/hr"
+          },
+          {
+            "label": "Bid Capacity Increase (YoY)",
+            "value": "+56%"
+          },
+          {
+            "label": "Owner Output Reduction",
+            "value": "-50%"
+          },
+          {
+            "label": "Remote vs. 3 U.S. Estimators Output",
+            "value": "597 vs 447"
+          },
+          {
+            "label": "Cost Per Bid (Remote)",
+            "value": "$65.33"
+          },
+          {
+            "label": "Cost Per Bid (U.S. Average)",
+            "value": "$418.85"
+          },
+          {
+            "label": "Revenue Growth (2023→2024)",
+            "value": "$5M → $10M"
+          }
+        ],
+        "highlightValue": "179% More",
+        "highlightLabel": "Revenue potential per bid vs. next closest U.S. estimator"
+      },
+      "comparison": {
+        "headerMetric": "Metric",
+        "headerResidential": "🏠 Residential (NY Paving)",
+        "headerCommercial": "🏗️ Commercial (Asphalt Sub)",
+        "rows": [
+          {
+            "metric": "Remote Team Size",
+            "residential": "3 remote team members",
+            "commercial": "1 remote estimator"
+          },
+          {
+            "metric": "Remote Worker Salary",
+            "residential": "~$39,000/year",
+            "commercial": "$39,000/year"
+          },
+          {
+            "metric": "Project Volume",
+            "residential": "7,436 tasks in one season",
+            "commercial": "597 bids in one year"
+          },
+          {
+            "metric": "Dollar Value Supported",
+            "residential": "$36.1M (7,436 × $4,850 avg)",
+            "commercial": "$135.5M in bid value"
+          },
+          {
+            "metric": "Cost Per Bid/Task (Remote)",
+            "residential": "Fraction of U.S. cost",
+            "commercial": "$65.33 vs. $418.85 (U.S.)"
+          },
+          {
+            "metric": "Field Team Impact",
+            "residential": "Reduced 3 → 2 estimators",
+            "commercial": "Owner freed 50% of time"
+          },
+          {
+            "metric": "Annual Savings",
+            "residential": "~$75,000",
+            "commercial": "~$242,000 (equivalent U.S. cost)"
+          },
+          {
+            "metric": "Key Innovation",
+            "residential": "Aerial measurements matched field accuracy; time study analysis",
+            "commercial": "Outproduced 3 U.S. estimators combined; 56% YoY bid increase"
+          },
+          {
+            "metric": "Client Response",
+            "residential": "Requested additional remote estimators",
+            "commercial": "Revenue doubled from $5M to $10M"
+          }
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "How It",
+      "titleHighlight": "Works",
+      "subtitle": "From first conversation to full integration in 90 days or less.",
+      "steps": [
+        {
+          "title": "Discovery Call",
+          "description": "We learn your current process, pain points, and goals. No sales pitch—just an honest assessment of whether remote support fits your operation."
+        },
+        {
+          "title": "Custom Talent Match",
+          "description": "We recruit, vet, and present candidates with construction backgrounds—licensed civil engineers trained on your tools, specs, and market."
+        },
+        {
+          "title": "Onboarding & Shadow Mode",
+          "description": "Days 1-30: Daily interaction, training on your systems, shadowing your current estimator. Your team stays in full control."
+        },
+        {
+          "title": "Ramp & Refine",
+          "description": "Days 31-60: Increasing autonomy with spot-check oversight. 2-3x per week feedback sessions. Quality auditing by your lead estimator."
+        },
+        {
+          "title": "Full Autonomy",
+          "description": "Days 61-90: Fully autonomous estimating with mandatory twice-weekly coordination. Your remote team member is now producing at full speed."
+        },
+        {
+          "title": "Optimize & Scale",
+          "description": "We continuously monitor performance, provide off-season training at no cost, and scale your team as your business grows."
+        }
+      ]
+    },
+    "financialCase": {
+      "title": "The",
+      "titleHighlight": "Financial Case",
+      "titleSuffix": "for Remote Estimating",
+      "subtitle": "What owners want to see before making the decision.",
+      "cards": [
+        {
+          "icon": "💰",
+          "title": "50-60% Cost Savings",
+          "description": "Remote estimator: $40K-$48K/yr total vs. $108K-$142K for in-house (salary + benefits + office)."
+        },
+        {
+          "icon": "📈",
+          "title": "2-3x Bid Capacity",
+          "description": "Go from 3-5 estimates/week to 8-12. More bids = more wins = $200K-$500K additional revenue."
+        },
+        {
+          "icon": "⏰",
+          "title": "60-90 Day Payback",
+          "description": "Most contractors see positive ROI within the first quarter through increased capacity and accuracy."
+        },
+        {
+          "icon": "🎯",
+          "title": "15-25% Accuracy Improvement",
+          "description": "Dedicated estimators catch more scope, reducing $80K-$150K in annual overrun costs."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Zero Risk to Start",
+          "description": "90-day pilot with month-by-month cancellation. Replacement guarantee if performance doesn't meet expectations."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions",
+      "titleHighlight": "Owners Ask",
+      "items": [
+        {
+          "question": "\"Won't my current estimator feel like I'm replacing him?\"",
+          "answer": "It's not about replacement—it's about amplification. Your current estimator becomes the trainer and auditor. Days 1-30 involve daily interactions; by Day 61-90 the remote estimator works autonomously with twice-weekly coordination. And the bonus pool math works in everyone's favor: $50K divided among 8 instead of 10 = a 25% raise for your local team."
+        },
+        {
+          "question": "\"My season is only 8-9 months. Will they still be available next year?\"",
+          "answer": "Yes. Our contracts include off-season training at no additional cost to you. From Dec 1 to Feb 15, SmartSourcing covers their salary while providing additional training based on your feedback—specs, classes, and skill development—so they return stronger next season."
+        },
+        {
+          "question": "\"How do I know they're actually working?\"",
+          "answer": "Working for a U.S.-based client remotely is a privilege that supports their family. If they don't perform, finding equivalent local work is extremely difficult. Beyond motivation, you'll see their output daily—bids produced, data entered, schedules created. The work speaks for itself."
+        },
+        {
+          "question": "\"Is my bid data secure?\"",
+          "answer": "Every remote estimator works through your secure systems, on locked devices, over encrypted VPN with multi-factor authentication, under strict NDAs and role-based access. They never store files locally. If you have a dedicated IT department, we'll follow your existing security policies exactly."
+        },
+        {
+          "question": "\"What if it doesn't work out?\"",
+          "answer": "We start with a 60-90 day pilot. If the fit isn't right, we provide a replacement estimator at no additional cost within 2 weeks. You're never stuck. Month-by-month cancellation is always available."
+        },
+        {
+          "question": "\"How much of my time does onboarding require?\"",
+          "answer": "Month 1: 3-4 hours/week. Month 2: 1-2 hours/week. Month 3+: 30-60 minutes per month. We handle recruiting, vetting, technical training, and systems setup. You're reviewing live work and saying \"more of this, less of that.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Fix Your",
+      "titleHighlight": "Estimating Model?",
+      "description": "Two asphalt companies trusted us. Both transformed their operations in one season. Two years of data prove the model works. Your company could be next.",
+      "primaryButton": "Schedule a Discovery Call",
+      "secondaryButton": "Follow Us on LinkedIn",
+      "footnote": "Or schedule a free 20-minute discovery call to discuss your specific challenges."
+    }
+  }
+}

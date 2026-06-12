@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "title": "Smartsourcing USA - Equipos remotos basados en conexión",
+    "description": "Equipos remotos basados en conexión, no en subcontratación transaccional. Construya relaciones transcontinentales de largo plazo con equipos en Filipinas y México."
+  },
+  "nav": {
+    "about": "Quiénes somos",
+    "services": "Qué hacemos",
+    "howItWorks": "Cómo funciona",
+    "caseStudies": "Casos de asfalto",
+    "team": "Nuestro equipo",
+    "careers": "Carreras",
+    "contact": "Contacto",
+    "toggleLabel": "Idioma",
+    "english": "EN",
+    "spanish": "ES"
+  },
+  "footer": {
+    "tagline": "Socio de talento basado en conexión para empresas de EE. UU. Oficinas en Filipinas y México.",
+    "motto": "Impulsados por las personas, definidos por la conexión.",
+    "quickLinks": "Enlaces rápidos",
+    "servicesTitle": "Servicios",
+    "learnMore": "Más información",
+    "whoWeAre": "Quiénes somos",
+    "servicesLink": "Servicios",
+    "howItWorks": "Cómo funciona",
+    "contactUs": "Contáctenos",
+    "careers": "Carreras",
+    "faq": "Preguntas frecuentes",
+    "operationsAdmin": "Operaciones y administración",
+    "customerSupport": "Atención al cliente",
+    "backOffice": "Back-office y finanzas",
+    "construction": "Construcción y campo",
+    "guide": "Guía: conexión vs. subcontratación",
+    "caseStudies": "Casos de éxito",
+    "blog": "Blog",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyright": "© 2026 Smartsourcing USA. Todos los derechos reservados."
+  },
+  "home": {
+    "hero": {
+      "title": "Construya equipos remotos que se sientan",
+      "titleHighlight": "propios",
+      "subtitle": "Soluciones de personal basadas en conexión para construcción, arquitectura y servicios profesionales. Acceda al mejor talento en Filipinas y México sin la carga de la subcontratación tradicional.",
+      "quote": "\"Donde la conexión lidera, el desempeño sigue\"",
+      "cta": "Descubra por qué somos diferentes"
+    },
+    "connectionBanner": {
+      "title": "Conexión por encima de la transacción",
+      "description": "No solo subcontratamos: construimos equipos integrados que se convierten en extensiones de su empresa, no en proveedores externos."
+    },
+    "whyChoose": {
+      "title": "¿Por qué elegir SmartSourcing USA?",
+      "subtitle": "Redefinimos el personal remoto para construcción y servicios profesionales poniendo las relaciones primero."
+    },
+    "benefits": [
+      {
+        "title": "Enfoque basado en conexión",
+        "description": "La subcontratación tradicional es transaccional. Construimos alianzas de largo plazo donde su equipo remoto se integra a su cultura, flujos de trabajo y objetivos. Se sienten como su gente porque invertimos en hacer real esa conexión."
+      },
+      {
+        "title": "Presencia en el terreno",
+        "description": "Con oficinas en Filipinas y México, brindamos apoyo directo, alineación cultural y experiencia local. Obtiene los beneficios del talento global con la confiabilidad de gestión en sitio."
+      },
+      {
+        "title": "Experiencia en construcción",
+        "description": "Nos especializamos en personal para construcción: desde estimadores y coordinadores de proyecto hasta arquitectos y apoyo administrativo. Entendemos contratistas de asfalto, contratistas generales, especialistas en fachadas y las demandas únicas de su industria."
+      },
+      {
+        "title": "Eficiencia de costos sin compromisos",
+        "description": "Reduzca costos operativos entre 40 y 60 % en comparación con contratación en EE. UU., manteniendo la calidad. Sin gastos de oficina, equipo ni prestaciones: nosotros manejamos toda la infraestructura para que usted se enfoque en crecer."
+      },
+      {
+        "title": "Escalabilidad y flexibilidad",
+        "description": "Escale su fuerza laboral según la demanda del proyecto sin compromisos a largo plazo. Ya sea un estimador o un equipo completo, nos adaptamos a sus ciclos y fluctuaciones de carga."
+      },
+      {
+        "title": "Talento educado y preseleccionado",
+        "description": "Acceda a un grupo diverso de profesionales altamente capacitados. Filipinas y México ofrecen sólidos sistemas de educación técnica en ingeniería, arquitectura, gestión de proyectos y operaciones empresariales a tarifas competitivas."
+      },
+      {
+        "title": "Ajuste cultural y retención",
+        "description": "No solo emparejamos habilidades: emparejamos valores. Nuestra inversión inicial en entender su cultura mejora la integración del equipo, la retención y reduce la rotación de proveedores."
+      },
+      {
+        "title": "Incorporación y capacitación más rápidas",
+        "description": "Gestionamos reclutamiento, capacitación e integración. Sus nuevos integrantes llegan listos para contribuir, inmersos en sus herramientas, procesos y ritmos de comunicación desde el primer día."
+      },
+      {
+        "title": "Mitigación de riesgos y cumplimiento",
+        "description": "Gestionamos cumplimiento laboral, administración de RR. HH. y requisitos regulatorios en cada país. Usted evita la complejidad del derecho laboral internacional y mantiene control operativo total."
+      }
+    ],
+    "comparison": {
+      "title": "Comparación directa de procesos",
+      "subtitle": "Vea exactamente dónde falla la subcontratación tradicional y dónde SmartSourcing USA entrega resultados",
+      "feature": "Característica",
+      "us": "SmartSourcing USA",
+      "traditional": "Subcontratación tradicional",
+      "rows": [
+        {
+          "feature": "Integración cultural",
+          "us": "Inversión profunda desde el inicio",
+          "traditional": "Alineación mínima"
+        },
+        {
+          "feature": "Retención del equipo",
+          "us": "Alianzas de largo plazo",
+          "traditional": "Alta rotación"
+        },
+        {
+          "feature": "Apoyo en sitio",
+          "us": "Oficinas locales en PH y MX",
+          "traditional": "Solo gestión remota"
+        },
+        {
+          "feature": "Especialización industrial",
+          "us": "Experiencia en construcción",
+          "traditional": "Servicios genéricos"
+        },
+        {
+          "feature": "Personalización de flujos",
+          "us": "Adaptado a sus procesos",
+          "traditional": "Talla única"
+        },
+        {
+          "feature": "Se siente como su equipo",
+          "us": "Extensión integrada",
+          "traditional": "Proveedor externo"
+        }
+      ]
+    },
+    "testimonial": {
+      "quote": "\"Probamos la subcontratación tradicional y seguimos cambiando de proveedores. SmartSourcing USA nos construyó un equipo conectado en Filipinas que se siente como nuestra propia gente, y el desempeño lo demuestra.\"",
+      "attribution": "— Cliente de la industria de la construcción"
+    },
+    "process": {
+      "title": "Cómo construimos su equipo",
+      "steps": [
+        {
+          "title": "Descubrimiento y mapeo",
+          "description": "Mapeamos sus flujos de trabajo, cultura y objetivos para identificar dónde los equipos remotos generan mayor valor para su negocio."
+        },
+        {
+          "title": "Diseño y construcción",
+          "description": "Diseñamos roles, perfiles de contratación y ritmos de trabajo; luego reclutamos y construimos su equipo en Filipinas o México."
+        },
+        {
+          "title": "Integración y optimización",
+          "description": "Integramos su equipo en sus herramientas y ritmos, y brindamos apoyo continuo para asegurar un desempeño sostenido."
+        }
+      ]
+    },
+    "services": {
+      "label": "NUESTROS PRODUCTOS",
+      "title": "Servicios especializados para construcción",
+      "subtitle": "Equipos remotos diseñados para las demandas únicas de su industria",
+      "items": [
+        {
+          "title": "Estimación de construcción",
+          "description": "Apoyo en takeoff, preparación de ofertas, análisis de costos y coordinación con proveedores para asfalto, mampostería, fachadas y contratación general."
+        },
+        {
+          "title": "Coordinación de proyectos",
+          "description": "Gestión de documentación, apoyo en programación, seguimiento de submittals y coordinación de RFI para mantener los proyectos en curso."
+        },
+        {
+          "title": "Arquitectura y dibujo",
+          "description": "Dibujo CAD, apoyo de diseño, revisión de planos y documentación técnica para firmas de arquitectura e ingeniería."
+        },
+        {
+          "title": "Apoyo administrativo",
+          "description": "Asistentes ejecutivos, coordinadores, programadores y equipos de documentación que mantienen las operaciones en marcha."
+        },
+        {
+          "title": "Servicio al cliente",
+          "description": "Equipos de teléfono, chat y correo capacitados para reflejar la voz de su marca y brindar un servicio excepcional."
+        },
+        {
+          "title": "Operaciones de back office",
+          "description": "Facturación, cuentas por pagar, reportes y gestión de flujos financieros para empresas de construcción."
+        }
+      ]
+    },
+    "stats": {
+      "title": "La ventaja de SmartSourcing USA",
+      "subtitle": "Resultados reales para empresas de construcción como la suya",
+      "costReduction": "Reducción de costos",
+      "offices": "Oficinas globales",
+      "experience": "Años de experiencia",
+      "placements": "Colocaciones exitosas"
+    },
+    "cta": {
+      "title": "¿Listo para construir su equipo conectado?",
+      "description": "Diseñemos un equipo remoto basado en conexión que se sienta como una extensión de su personal principal, no como un proveedor externo.",
+      "button": "Agendar una llamada de descubrimiento"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Más que subcontratación.",
+      "titleLine2": "Somos su",
+      "titleHighlight": "equipo global.",
+      "subtitle": "Smartsourcing USA se fundó con una creencia simple: los mejores equipos no se definen por la geografía, sino por la conexión."
+    },
+    "mission": {
+      "label": "NUESTRA MISIÓN",
+      "title": "Redefiniendo cómo trabaja el mundo",
+      "p1": "Durante demasiado tiempo, la \"subcontratación\" ha significado relaciones transaccionales, tarifas ocultas y equipos desechables. Sabíamos que debía haber una mejor forma.",
+      "p2": "Construimos Smartsourcing USA para cerrar la brecha entre empresas de EE. UU. y talento de clase mundial en Filipinas y México. No solo llenamos puestos: construimos equipos integrados y de alto desempeño que comparten su cultura, metas y visión.",
+      "p3": "Nuestra misión es ayudar a las empresas a escalar de forma sostenible brindando lo que los BPO tradicionales no ofrecen:",
+      "p3Bold": "conexión humana real.",
+      "imageAlt": "Equipo de trabajo colaborando"
+    },
+    "presence": {
+      "title": "Una red transcontinental",
+      "subtitle": "Con oficinas y centros de talento en tres regiones clave, ofrecemos flexibilidad, alineación de zona horaria y habilidades diversas que su negocio necesita.",
+      "usa": {
+        "title": "Estados Unidos",
+        "description": "Sede y estrategia con clientes. Somos sus socios locales, con comprensión del matiz de la cultura empresarial de EE. UU."
+      },
+      "mexico": {
+        "title": "México",
+        "description": "Centro de talento nearshore. Colaboración en tiempo real, profesionales bilingües y proximidad cultural."
+      },
+      "philippines": {
+        "title": "Filipinas",
+        "description": "Centro de operaciones global. Profesionales altamente capacitados y con dominio del inglés, dedicados a la excelencia en el servicio."
+      }
+    },
+    "values": {
+      "title": "Basados en valores",
+      "subtitle": "Estos principios guían cada alianza que construimos y cada persona que contratamos.",
+      "items": [
+        {
+          "title": "Conexión primero",
+          "description": "Las personas rinden mejor cuando se sienten parte de un equipo, no de una lista de proveedores."
+        },
+        {
+          "title": "Transparencia radical",
+          "description": "Sin tarifas ocultas ni cajas negras. Usted sabe exactamente quién trabaja para usted y cómo."
+        },
+        {
+          "title": "Crecimiento a largo plazo",
+          "description": "No buscamos soluciones rápidas. Construimos bases para años de éxito escalable."
+        },
+        {
+          "title": "Excelencia siempre",
+          "description": "Contratamos al 1 % superior del talento e invertimos en su desarrollo continuo."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para conocer a su nuevo equipo?",
+      "subtitle": "Deje de subcontratar. Empiece a conectar.",
+      "schedule": "Agendar una llamada estratégica",
+      "stories": "Ver casos de éxito"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Construyamos su equipo basado en conexión",
+      "subtitle": "¿Listo para ir más allá de la subcontratación transaccional?",
+      "description": "Cuéntenos sobre su proyecto o elija un horario para hablar. Le ayudaremos a construir una conexión transcontinental de largo plazo que escale su negocio con equipos que se sientan propios."
+    },
+    "tabs": {
+      "inquiry": "Consulta del Cliente",
+      "schedule": "Agendar una Llamada"
+    },
+    "getInTouch": {
+      "title": "Póngase en contacto",
+      "description": "Estamos aquí para ayudarle a construir equipos remotos basados en conexión que transformen la forma en que escala.",
+      "emailLabel": "Escríbanos"
+    },
+    "whyCall": {
+      "title": "¿Por qué agendar una llamada?",
+      "items": [
+        "Descubra cómo los equipos basados en conexión difieren de la subcontratación tradicional",
+        "Conozca nuestro proceso comprobado para construir equipos remotos",
+        "Obtenga una estrategia personalizada para las necesidades de su negocio",
+        "Vea ejemplos reales de alianzas exitosas"
+      ]
+    },
+    "inquiry": {
+      "title": "Cuéntenos sobre su proyecto",
+      "description": "Comparta los datos de su empresa y sus necesidades de estimación. Revisaremos su consulta y responderemos en un plazo de 24 horas.",
+      "scheduleHint": "¿Ya sabe lo que necesita y quiere agendar una llamada?",
+      "scheduleLink": "Ir a Agendar una Llamada →",
+      "fields": {
+        "fullName": {
+          "label": "Nombre completo",
+          "placeholder": "Juan Pérez"
+        },
+        "email": {
+          "label": "Correo de trabajo",
+          "placeholder": "usted@empresa.com"
+        },
+        "phone": {
+          "label": "Teléfono (opcional)",
+          "placeholder": "+1 (555) 000-0000"
+        },
+        "companyName": {
+          "label": "Nombre de la empresa",
+          "placeholder": "Nombre de su empresa"
+        },
+        "tradeScope": {
+          "label": "Rubro / Alcance",
+          "placeholder": "Seleccione su rubro o alcance",
+          "options": [
+            "Asfalto / Pavimentación",
+            "Construcción residencial",
+            "Construcción comercial",
+            "Civil / Infraestructura",
+            "Contratación general",
+            "Otro"
+          ]
+        },
+        "estimatorsNeeded": {
+          "label": "Estimadores necesarios",
+          "placeholder": "Seleccione cantidad",
+          "options": ["1", "2–3", "4–5", "6+"]
+        },
+        "software": {
+          "label": "Software utilizado (marque todos los que correspondan)",
+          "otherPlaceholder": "Especifique otro software"
+        },
+        "notes": {
+          "label": "Detalles adicionales (opcional)",
+          "placeholder": "Volumen del proyecto, plazos, tamaño del equipo actual u otra información relevante..."
+        }
+      },
+      "software": {
+        "planSwift": "PlanSwift",
+        "bluebeam": "Bluebeam",
+        "hcssHeavyBid": "HCSS / HeavyBid",
+        "procore": "Procore",
+        "b2w": "B2W",
+        "measureSquare": "Measure Square",
+        "googleEarthPro": "Google Earth Pro",
+        "excel": "Excel / Hojas de cálculo",
+        "other": "Otro"
+      },
+      "submit": "Enviar consulta",
+      "submitting": "Enviando...",
+      "error": "Algo salió mal. Inténtelo de nuevo o escriba directamente a sales@smartsourcingusa.com.",
+      "success": {
+        "title": "¡Consulta recibida!",
+        "description": "Gracias por contactarnos. Nuestro equipo revisará sus datos y le responderá en un plazo de 24 horas.",
+        "submitAnother": "Enviar otra consulta"
+      }
+    },
+    "schedule": {
+      "title": "Solicitar una llamada estratégica",
+      "description": "Indíquenos cuándo está disponible y confirmaremos la reunión por correo o teléfono.",
+      "howItWorks": "Comparta sus días y horarios preferidos. Nuestro equipo se comunicará en un plazo de 24 horas para confirmar su llamada estratégica.",
+      "fields": {
+        "fullName": {
+          "label": "Nombre completo",
+          "placeholder": "Juan Pérez"
+        },
+        "email": {
+          "label": "Correo de trabajo",
+          "placeholder": "usted@empresa.com"
+        },
+        "phone": {
+          "label": "Teléfono",
+          "placeholder": "+1 (555) 000-0000"
+        },
+        "companyName": {
+          "label": "Nombre de la empresa (opcional)",
+          "placeholder": "Nombre de su empresa"
+        },
+        "preferredDays": {
+          "label": "Días preferidos",
+          "placeholder": "ej. lun–mié la próxima semana, o 10–12 de junio"
+        },
+        "preferredTime": {
+          "label": "Horario preferido",
+          "placeholder": "Seleccione un horario",
+          "options": ["Mañana (8am–12pm)", "Tarde (12pm–5pm)", "Noche (5pm–8pm)", "Flexible"]
+        },
+        "timezone": {
+          "label": "Su zona horaria",
+          "placeholder": "Seleccione zona horaria",
+          "options": [
+            "EE. UU. Este (ET)",
+            "EE. UU. Centro (CT)",
+            "EE. UU. Montaña (MT)",
+            "EE. UU. Pacífico (PT)",
+            "Filipinas (PHT)",
+            "México Noroeste (PT) — Baja California",
+            "México Pacífico (MT) — Sonora, Sinaloa, Nayarit",
+            "México Centro (CT) — Ciudad de México, Guadalajara",
+            "México Sureste (ET) — Quintana Roo",
+            "Otro"
+          ]
+        },
+        "notes": {
+          "label": "¿Algo más? (opcional)",
+          "placeholder": "Mejor número para contactarle, tema de la reunión, etc."
+        }
+      },
+      "submit": "Solicitar llamada",
+      "submitting": "Enviando...",
+      "error": "Algo salió mal. Inténtelo de nuevo o escriba directamente a sales@smartsourcingusa.com.",
+      "success": {
+        "title": "¡Solicitud recibida!",
+        "description": "¡Gracias! Nos comunicaremos en un plazo de 24 horas para confirmar su llamada estratégica.",
+        "submitAnother": "Enviar otra solicitud"
+      },
+      "inquiryHint": "¿Prefiere compartir primero los detalles del proyecto?",
+      "inquiryLink": "Complete el formulario de consulta →"
+    },
+    "bottomCta": {
+      "title": "¿Aún no está listo para agendar? Iniciemos una conversación",
+      "description": "¿Tiene preguntas? ¿Quiere saber más? Envíe una consulta y le responderemos en un plazo de 24 horas.",
+      "inquiry": "Enviar consulta del cliente",
+      "learnMore": "Conozca más sobre nosotros"
+    }
+  }
+}

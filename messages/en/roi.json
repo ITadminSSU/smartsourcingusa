@@ -1,0 +1,499 @@
+{
+  "roi": {
+    "nav": {
+      "roiCalculator": "ROI Calculator",
+      "howItWorks": "How It Works",
+      "meetEngineers": "Meet Engineers",
+      "caseStudies": "Case Studies",
+      "overcomeFears": "Overcome Fears",
+      "pricing": "Pricing",
+      "faq": "FAQ"
+    },
+    "calculator": {
+      "heading": "Calculate Your ROI",
+      "labels": {
+        "salary": "Current Estimator Annual Salary ($)",
+        "benefits": "Benefits & Taxes (%)",
+        "overhead": "Office Space & Equipment (Annual, $)",
+        "currentBids": "Current Bids Per Month",
+        "projectValue": "Average Project Value ($)",
+        "winRate": "Estimated Win Rate (%)"
+      },
+      "results": {
+        "title": "Your Custom ROI Analysis",
+        "currentCost": "Current Annual Cost (In-House):",
+        "smartCost": "SmartSourcing Annual Cost:",
+        "annualSavings": "Annual Savings:",
+        "newBidCapacity": "New Monthly Bid Capacity (est.):",
+        "additionalRevenue": "Additional Revenue (Year 1):",
+        "paybackPeriod": "ROI Payback Period:",
+        "days": "{count} days",
+        "scheduleCta": "Schedule Consultation to Discuss"
+      }
+    },
+    "howItWorks": {
+      "heading": "Our 4-Step Process",
+      "steps": [
+        {
+          "title": "Assessment Call",
+          "content": "Schedule a 15-minute call to discuss your current workflow, volume, challenges, and goals. We'll understand your specific needs and how we can help."
+        },
+        {
+          "title": "Candidate Matching",
+          "content": "Within 3-5 business days, we match you with 2-3 pre-vetted civil engineers. Each has credentials, asphalt experience, and software proficiency."
+        },
+        {
+          "title": "Interview & Selection",
+          "content": "You conduct interviews with candidates. Pick the engineer who fits your culture and needs best. Complete transparency and control in selection."
+        },
+        {
+          "title": "90-Day Onboarding",
+          "content": "Dedicated training and support. Month 1: shadowing and learning. Month 2: collaborative work. Month 3: independent with oversight."
+        }
+      ],
+      "timeline": {
+        "heading": "90-Day Training Timeline",
+        "items": [
+          {
+            "marker": "Week 1-2",
+            "phase": "Onboarding & Access:",
+            "description": "System setup, software access, NDA completion, company orientation"
+          },
+          {
+            "marker": "Week 3-4",
+            "phase": "Shadow Phase:",
+            "description": "Daily interaction with your team, learning specifications, observing workflow"
+          },
+          {
+            "marker": "Week 5-8",
+            "phase": "Collaborative Phase:",
+            "description": "Creating estimates together with your manager, 2-3x per week check-ins, feedback and refinement"
+          },
+          {
+            "marker": "Week 9-12",
+            "phase": "Independent Phase:",
+            "description": "Working autonomously with weekly oversight, increasing bid volume, quality assurance reviews"
+          },
+          {
+            "marker": "Week 13+",
+            "phase": "Full Productivity:",
+            "description": "Delivering 25-35 quality bids per month, monthly performance check-ins, continuous improvement"
+          }
+        ]
+      }
+    },
+    "meetEngineers": {
+      "heading": "Meet Licensed Civil Engineers",
+      "subheading": "All engineers are licensed civil engineers with 5-year engineering degrees, Washington Accord certification, and asphalt specialization training.",
+      "profileLabel": "Engineer Profile {number}",
+      "engineers": [
+        {
+          "name": "Raul Santos",
+          "role": "Licensed Civil Engineer | PlanSwift Specialist",
+          "credentials": [
+            "5-Year Engineering Degree (UP Diliman)",
+            "Licensed Civil Engineer (PRC)",
+            "8+ Years Asphalt Experience",
+            "PlanSwift & Bluebeam Certified",
+            "Fluent English - Neutral Accent"
+          ]
+        },
+        {
+          "name": "Maria Gonzales",
+          "role": "Licensed Civil Engineer | Estimating Lead",
+          "credentials": [
+            "5-Year Engineering Degree (Mapúa)",
+            "Licensed Civil Engineer (PRC)",
+            "6+ Years Commercial Asphalt",
+            "HCSS HeavyBid Proficient",
+            "Advanced English Communication"
+          ]
+        },
+        {
+          "name": "Carlos De Leon",
+          "role": "Licensed Civil Engineer | Quality Assurance",
+          "credentials": [
+            "5-Year Engineering Degree (DLSU)",
+            "Licensed Civil Engineer (PRC)",
+            "10+ Years Infrastructure",
+            "AutoCAD & Revit Expert",
+            "DOT Spec Knowledge"
+          ]
+        }
+      ],
+      "whyExcel": {
+        "heading": "Why Our Engineers Excel",
+        "items": [
+          {
+            "title": "Washington Accord™",
+            "desc": "International credential recognition - equivalent to US engineering degrees"
+          },
+          {
+            "title": "Licensed Professionals",
+            "desc": "Passed rigorous PRC exam (30-35% pass rate = US PE rigor)"
+          },
+          {
+            "title": "English Fluency",
+            "desc": "Philippines ranks 20th globally - higher than India, China, most of Asia"
+          },
+          {
+            "title": "Work Ethic",
+            "desc": "94% retention rate - commitment to excellence and client relationships"
+          }
+        ]
+      }
+    },
+    "overcomeFears": {
+      "heading": "We Understand Your Concerns",
+      "subheading": "Here are the top objections we hear from contractors—and honest answers backed by data.",
+      "answerHeader": "✓ Our Answer",
+      "items": [
+        {
+          "icon": "😟",
+          "question": "How do I know they're actually working if I can't see them?",
+          "intro": "You manage by results, not by surveillance. You assign a bid → Set deadline → Review estimate → Give feedback → Track accuracy and win rate. Remote is the same, except you have MORE visibility:",
+          "bullets": [
+            "Daily check-ins (15 minutes)",
+            "Weekly performance metrics",
+            "Screen-sharing for training",
+            "Time-tracking software available",
+            "Slack/Teams communication"
+          ],
+          "closingLabel": "Reality:",
+          "closing": "Your remote estimator WANTS this job to work. It pays 4-6x what they'd earn locally, provides stability for their family, and offers career growth. If they don't perform, they lose a life-changing opportunity."
+        },
+        {
+          "icon": "🛡️",
+          "question": "What about data security? Can I trust them with my bids?",
+          "intro": "Security is our top priority:",
+          "bullets": [
+            "All engineers sign NDA and confidentiality agreements",
+            "VPN required for all work",
+            "No downloads or file transfers unless authorized",
+            "Access restricted to only necessary systems",
+            "All work tracked and auditable",
+            "We handle all employment and liability"
+          ],
+          "closingLabel": "Industry Standard:",
+          "closing": "Over 20+ years of BPO (Business Process Outsourcing) experience in the Philippines with zero major security breaches at top firms. Your estimating data is safer with systems than with individual spreadsheets."
+        },
+        {
+          "icon": "💬",
+          "question": "Will language/communication be a problem?",
+          "introBold": "Philippines ranks 20th globally for English proficiency—HIGHER than India, China, and most Asian countries.",
+          "bullets": [
+            "All our engineers speak fluent English with neutral American accents",
+            "English-medium engineering education",
+            "Professional communication across all channels",
+            "Video calls, phone, email, chat all comfortable",
+            "20+ years of U.S. customer service experience culture"
+          ],
+          "closingLabel": "Our Experience:",
+          "closing": "94% retention rate and zero communication-related issues with current clients. Filipinos are culturally familiar with American business norms, idioms, and work styles."
+        },
+        {
+          "icon": "❓",
+          "question": "What if they don't work out? Can I get rid of them?",
+          "introBold": "Yes. We offer a 90-day replacement guarantee.",
+          "paragraph": "If your estimator doesn't meet expectations in the first 90 days, we replace them at no cost within 2 weeks. You risk nothing.",
+          "closingLabel": "Reality Check:",
+          "closing": "In 18+ placements with asphalt contractors, we've had ZERO replacements requested. Contractors don't want to replace them—they want to add more."
+        },
+        {
+          "icon": "🔄",
+          "question": "My asphalt season is only 8-9 months. What happens in offseason?",
+          "intro": "We include off-season training at no additional cost to you:",
+          "bullets": [
+            "Dec 1 - Feb 15: SmartSourcing provides training",
+            "We gather feedback on skill gaps and training needs",
+            "Classes on new specs, software, industry certifications",
+            "You only pay during estimating season",
+            "Engineer returns ready for next season"
+          ],
+          "closingLabel": "Benefit:",
+          "closing": "Your estimator improves during offseason, comes back sharper, and you don't waste training time in spring. It's built into our model."
+        },
+        {
+          "icon": "🎓",
+          "question": "How much time will I need to spend training them?",
+          "timeBlocks": [
+            { "label": "Month 1:", "text": "3-4 hours/week (daily interactions, teaching specs, answering questions)" },
+            { "label": "Month 2:", "text": "1-2 hours/week (collaborative work, feedback sessions)" },
+            { "label": "Month 3+:", "text": "30-60 minutes/month (ongoing check-ins, improvement coaching)" }
+          ],
+          "closingLabel": "Comparison:",
+          "closing": "Hiring a local estimator requires the same time investment PLUS months of recruitment and onboarding. You're just consolidating the training."
+        },
+        {
+          "icon": "💼",
+          "question": "Will my current estimator feel replaced or threatened?",
+          "intro": "Not if you frame it correctly. Here's what happens in practice:",
+          "bullets": [
+            "Month 1: Your current estimator becomes the trainer and auditor—valued role",
+            "Month 2: They work together, building relationship and trust",
+            "Month 3+: Remote estimator handles volume; your person handles strategy and client relationships"
+          ],
+          "closingLabel": "Incentive Alignment:",
+          "closing": "Your local team benefits from increased company profit. At year-end, your bonus pool is bigger because the remote estimator generated revenue. Many contractors add 25% to bonuses because of this."
+        },
+        {
+          "icon": "🌍",
+          "question": "Why Philippines? Aren't there other options?",
+          "introBold": "Philippines is the BEST choice for construction estimating. Here's why:",
+          "bullets": [
+            "Licensed Civil Engineers: 5-year degrees, Washington Accord certified (2023), rigorous PRC exams",
+            "English Proficiency: 20th globally (beats India, China, most of Asia)",
+            "Cultural Fit: 20+ years of U.S. business process outsourcing = American work norms, customer-focused",
+            "Costs: 60-75% savings vs. U.S. hiring without quality compromise",
+            "Work Ethic: 94% retention rate shows commitment and loyalty"
+          ],
+          "closingLabel": "Comparison:",
+          "closing": "India excels at pure IT/software. Philippines excels at client-facing, communication-heavy, relationship-driven roles like construction estimating."
+        },
+        {
+          "icon": "💰",
+          "question": "What if your costs increase? What's the pricing model?",
+          "introBold": "Transparent, predictable pricing:",
+          "bullets": [
+            "$40K-55K annually (all-inclusive, no hidden fees)",
+            "$3,000 one-time setup fee",
+            "Annual reviews with pricing adjustment (typically 3-5% increases aligned with inflation)",
+            "Replacement guarantee included at no cost",
+            "Off-season training included at no cost"
+          ],
+          "closingLabel": "Vs. Local Hiring:",
+          "closing": "$108K-142K with variable benefits, overhead, training, and turnover costs. Our model is 60% cheaper and MORE predictable."
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Simple, Transparent Pricing",
+      "subheading": "Choose the right remote estimator for your construction business. All plans include dedicated training, quality assurance, and strategic support.",
+      "mostPopular": "Most Popular",
+      "annually": "Annually",
+      "perMonth": "Per month",
+      "plans": [
+        {
+          "name": "Entry Level",
+          "experience": "1–4 years of experience",
+          "period": "Annually",
+          "billingInfo": "Billed bi-weekly",
+          "cta": "Get Started",
+          "features": [
+            "Civil engineer degree with US credential recognition",
+            "Foundational asphalt estimating knowledge",
+            "Dedicated trainer (your estimator)",
+            "30-60-90 structured onboarding",
+            "Quality audits and feedback",
+            "Off-season training included"
+          ]
+        },
+        {
+          "name": "Experienced",
+          "experience": "5–10 years of experience",
+          "period": "Annually",
+          "billingInfo": "Billed bi-weekly",
+          "cta": "Choose Experienced",
+          "features": [
+            "Advanced asphalt project estimation",
+            "Complex bid strategies and pricing",
+            "Immediate productivity (70-80% on Day 1)",
+            "Strategic auditor model",
+            "Minimal ramp-up time needed",
+            "Off-season training included"
+          ]
+        },
+        {
+          "name": "US-Based Experience",
+          "experience": "2+ years US asphalt + 5–10 years civil engineering",
+          "period": "Per month",
+          "billingInfo": "Top-tier talent",
+          "cta": "Select Expert",
+          "features": [
+            "Expert-level asphalt project management",
+            "Site assessment and client interaction ready",
+            "90%+ productivity from day one",
+            "Strategic partner role in bidding",
+            "Process improvement contributions",
+            "Off-season training included"
+          ]
+        }
+      ],
+      "setup": {
+        "heading": "One-Time Setup Fee",
+        "description": "Everything you need to launch your remote estimator successfully—included once.",
+        "items": [
+          {
+            "title": "Hardware Equipment & Monitors",
+            "desc": "Laptop, monitors, peripherals, and ergonomic setup for remote work readiness"
+          },
+          {
+            "title": "Software Licenses",
+            "desc": "PlanSwift, Bluebeam, project management tools, and all required estimating software"
+          },
+          {
+            "title": "15+ Criteria Assessments",
+            "desc": "Comprehensive vetting of technical skills, asphalt knowledge, and cultural fit"
+          },
+          {
+            "title": "Technical Support",
+            "desc": "Initial setup, system configuration, software training, and ongoing IT support"
+          },
+          {
+            "title": "13-Month Mandatory Bonus",
+            "desc": "One-time performance bonus at 1-year mark to incentivize quality and retention"
+          },
+          {
+            "title": "Health Insurance",
+            "desc": "Comprehensive health coverage supporting employee wellbeing and retention"
+          },
+          {
+            "title": "Admin Setup Fees",
+            "desc": "Contract preparation, payroll setup, NDA processing, and compliance documentation"
+          }
+        ],
+        "comparison": {
+          "label": "Why our pricing is better:",
+          "text": "Traditional in-house estimators cost $108K–$142K annually, plus overhead, recruitment, extended onboarding, and variable benefits. Our models include setup, training, quality oversight, and strategic support. You get 60% cost savings with 2–3x bid capacity and predictable monthly or annual pricing.",
+          "savings": "60% cost savings",
+          "bidCapacity": "2–3x bid capacity",
+          "predictable": "predictable monthly or annual pricing."
+        }
+      },
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "items": [
+          {
+            "q": "What's included in the pricing?",
+            "a": "All pricing includes: civil engineer with US credential recognition, dedicated training by your estimator, 30-60-90 structured onboarding, quality audits, and off-season training. The one-time setup fee covers hardware, software, assessments, technical support, health insurance, and admin fees."
+          },
+          {
+            "q": "How quickly will they become productive?",
+            "a": "Entry Level: 60–90 days to full productivity. Experienced: 70–80% productivity immediately. Expert: 90%+ productivity from day one. Your estimator provides training and strategic oversight throughout."
+          },
+          {
+            "q": "Is there a contract term?",
+            "a": "Yes. We recommend a 1-year minimum commitment to ensure ROI and successful integration. If you're unsatisfied in the first 90 days, we replace your estimator at no cost—no exceptions."
+          },
+          {
+            "q": "What if they don't work out?",
+            "a": "We offer a 90-day replacement guarantee. If your estimator doesn't meet expectations, we replace them at no additional cost within 2 weeks. In 18+ placements with asphalt contractors, we've had zero replacements requested."
+          },
+          {
+            "q": "Do they work full-time?",
+            "a": "Yes. Your remote estimator is a full-time, dedicated team member assigned exclusively to your company. They work your business hours and are available for training, audits, and strategic input from day one."
+          },
+          {
+            "q": "Can I add more estimators later?",
+            "a": "Absolutely. Many contractors start with one and scale to 2–3 estimators as bid volume grows. Each adds incremental estimating capacity while your existing staff manages quality and strategy."
+          }
+        ]
+      }
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What qualifications do your engineers have?",
+          "answer": "All engineers are licensed civil engineers with 5-year engineering degrees from top Philippine universities (UP Diliman, Mapúa, De La Salle, etc.), Washington Accord certification, and passage of the rigorous PRC Civil Engineer Licensure Examination (30-35% pass rate, equivalent to U.S. PE exam rigor). All have 4-10+ years of construction experience and are trained specifically in asphalt estimating before placement."
+        },
+        {
+          "question": "How long is the onboarding process?",
+          "answer": "Onboarding is 90 days with structured phases: Week 1-2 (systems setup), Week 3-4 (shadow phase), Week 5-8 (collaborative work), Week 9-12 (independent work with oversight). By day 90, they're delivering 25-35 quality bids per month with minimal oversight. Total time commitment from you: 3-4 hrs/week month 1, 1-2 hrs/week month 2, 30-60 min/month after."
+        },
+        {
+          "question": "What software do they need to be proficient in?",
+          "answer": "Core: PlanSwift, Bluebeam, AutoCAD, Excel. Advanced: HCSS HeavyBid, B2W Estimate, Revit. We train them on YOUR specific software stack during onboarding. Most candidates already have proficiency in PlanSwift and Bluebeam; specialized tools are learned during month 1-2 training."
+        },
+        {
+          "question": "Can they work my time zone?",
+          "answer": "Yes. Philippines is 12-16 hours ahead of U.S. time zones. We structure work so they overlap with U.S. business hours (typically 8 AM-5 PM Mountain Time is 12 AM-4 AM the next day in Manila, but they work evenings Philippine time). Email, file uploads, and asynchronous communication work 24/7; video calls scheduled during overlap windows."
+        },
+        {
+          "question": "What happens if I'm not satisfied?",
+          "answer": "90-day replacement guarantee. If your estimator underperforms during the first 90 days, we replace them at no cost within 2 weeks. You only pay for what you use. No long-term contracts required; either party can end with 30 days notice after day 90."
+        },
+        {
+          "question": "How do you handle off-season (winter months)?",
+          "answer": "Off-season training is included at no additional cost. Dec 1-Feb 15, we provide training on new specs, software updates, certifications, and skill development. You don't pay during offseason; the engineer trains with us. They return ready for next season, often with improved skills."
+        },
+        {
+          "question": "Can I add more estimators later?",
+          "answer": "Absolutely. Many contractors start with one and add a second or third estimator after 6-12 months. Multi-engineer placements receive 10-15% discount on subsequent engineers. Onboarding is faster the second time because your team already understands the process."
+        },
+        {
+          "question": "What about data security and confidentiality?",
+          "answer": "All engineers sign detailed NDAs and confidentiality agreements. VPN required for all work. No file downloads without authorization. Access restricted to needed systems only. We handle all employment and liability. Bids and project data never leave your systems. Industry standard security practices exceed what most small contractors have internally."
+        },
+        {
+          "question": "What if they leave or get sick?",
+          "answer": "Unlikely. Our retention rate is 94% (far above industry average). If an engineer leaves unexpectedly outside the 90-day window, we provide a 4-week transition period and begin search for replacement. Backup coverage can be arranged if needed. Emergency protocols are documented in your agreement."
+        },
+        {
+          "question": "Do you handle hiring, payroll, and employment?",
+          "answer": "Yes. SmartSourcing USA handles all recruitment, vetting, hiring, payroll, benefits, taxes, and legal employment responsibility. You pay us one monthly fee; we handle everything else. You avoid all HR/compliance burden and international employment complexity."
+        },
+        {
+          "question": "What's the typical ROI timeline?",
+          "answer": "Most contractors see positive ROI in 60-90 days. Cost savings of $60K-90K annually, combined with increased revenue from 2-3x bid capacity, typically pay back the setup investment within 2-3 months. Use our ROI calculator to see your specific numbers."
+        },
+        {
+          "question": "Can we start part-time or on a trial basis?",
+          "answer": "We recommend full-time engagement for optimal results. However, the 90-day replacement guarantee effectively makes this a trial period—if it doesn't work, you get a replacement at no cost. Most contractors confirm value within 30 days and commit long-term."
+        },
+        {
+          "question": "How do you select candidates for my company?",
+          "answer": "We don't hire from job boards. We recruit directly from top Philippine universities and established engineering firms. We conduct a 4-stage vetting process: Resume review → Technical assessment → Video interviews → Reference checks. Only 1 in 15 candidates makes it to your presentation. You interview 2-3 finalists and choose the best fit."
+        }
+      ]
+    },
+    "caseStudies": {
+      "heading": "Real Results From Asphalt Contractors",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "results": "Results (6 Months)",
+      "clientQuote": "Client Quote",
+      "studies": [
+        {
+          "company": "Case Study 1: Residential Asphalt Contractor",
+          "location": "Utah | $5M Annual Revenue",
+          "challenge": "Owner was estimating projects at night after running crews during the day. Capped at 10-12 bids per month. Turning down $200K-300K in monthly opportunities. Couldn't justify hiring local estimator at $120K+ cost.",
+          "solution": "Matched with licensed civil engineer from Philippines. 5-year engineering degree, 4 years asphalt experience, PlanSwift & Bluebeam proficient. 90-day onboarding with structured training program.",
+          "metrics": [
+            { "number": "35", "label": "Bids/Month" },
+            { "number": "28%", "label": "Win Rate" },
+            { "number": "$7.2M", "label": "Projected Revenue" },
+            { "number": "$94K", "label": "Annual Savings" }
+          ],
+          "quote": "\"I was skeptical about remote estimators. I thought it meant 'offshore and unreliable.' But [Engineer Name] is on every call, knows our specs, and honestly catches things I used to miss. Best business decision I made this year. I got my evenings back.\""
+        },
+        {
+          "company": "Case Study 2: Commercial Asphalt Firm",
+          "location": "Colorado | $8M Annual Revenue",
+          "challenge": "Operations manager split between estimating and project oversight. Inconsistent bid turnaround (3-5 days). Complex commercial projects required senior-level technical detail. Needed capacity increase without significant payroll expansion.",
+          "solution": "Hired licensed CE with commercial construction background. Structured 90-day onboarding with weekly check-ins. Operations manager transitioned to quality review and client relationship focus.",
+          "metrics": [
+            { "number": "2x", "label": "Bid Capacity" },
+            { "number": "22%", "label": "Accuracy Improvement" },
+            { "number": "$12M", "label": "Revenue (Year End)" },
+            { "number": "48hrs", "label": "Turnaround" }
+          ],
+          "quote": "\"The training process was smooth. Communication is seamless. What impressed me most is they ask great questions about our process and actually improve our workflow. This has been a partnership, not just a service.\""
+        },
+        {
+          "company": "Case Study 3: Growth-Stage Contractor",
+          "location": "Arizona | $4M → $8M Revenue",
+          "challenge": "Rapid growth trajectory required scaling estimating capacity without proportional overhead increase. Current estimator overwhelmed. Couldn't hire fast enough to keep up with market demand.",
+          "solution": "Added two remote estimators in parallel - one handling residential, one commercial specialty. Staggered onboarding allowed knowledge transfer and team development.",
+          "metrics": [
+            { "number": "100%", "label": "Revenue Growth" },
+            { "number": "3x", "label": "Bid Volume" },
+            { "number": "$4.5M", "label": "Additional Revenue" },
+            { "number": "$140K", "label": "Combined Savings" }
+          ],
+          "quote": "\"Scaling with remote estimators allowed us to grow revenue without the infrastructure costs of hiring locally. We saved $140K+ while more than doubling bid capacity. We're planning to add a third estimator next year.\""
+        }
+      ]
+    }
+  }
+}

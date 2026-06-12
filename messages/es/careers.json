@@ -1,0 +1,16 @@
+{
+  "careers": {
+    "hero": {
+      "title": "Carreras en",
+      "titleHighlight": "SmartSourcing USA"
+    },
+    "comingSoon": {
+      "badge": "Próximamente",
+      "title": "Nuestra página de carreras está en camino",
+      "description": "Estamos creando un espacio dedicado para explorar vacantes y unirse a nuestro equipo en Filipinas, México y oportunidades remotas con clientes de EE. UU.",
+      "note": "Pronto conectaremos esta página con nuestra plataforma de contratación (incluido Breezy). Por ahora, nos encantaría saber de usted—contáctenos y lo tendremos en cuenta cuando abramos posiciones.",
+      "contactButton": "Contáctenos",
+      "homeButton": "Volver al inicio"
+    }
+  }
+}
