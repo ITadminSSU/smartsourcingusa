@@ -1,0 +1,21 @@
+{
+  "common": {
+    "keyFeatures": "Key Features",
+    "getStarted": "Get Started",
+    "scheduleStrategyCall": "Schedule a Strategy Call",
+    "viewAllServices": "View All Services",
+    "readMore": "Read More →",
+    "previous": "Previous",
+    "next": "Next",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Enter your email address",
+    "articleImage": "Article Image",
+    "close": "Close",
+    "viewProfile": "View Profile",
+    "department": "Department",
+    "since": "Since",
+    "tenure": "Tenure",
+    "skills": "Skills",
+    "contact": "Contact"
+  }
+}

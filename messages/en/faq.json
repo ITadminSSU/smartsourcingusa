@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "hero": {
+      "title": "Frequently Asked",
+      "titleHighlight": "Questions",
+      "subtitle": "Everything you need to know about building your connection-based remote team."
+    },
+    "items": [
+      {
+        "question": "How is Smart Sourcing USA different from traditional outsourcing?",
+        "answer": "Traditional outsourcing often involves transactional, project-based work with hidden fees and little transparency. We build connection-based teams. Your remote staff are dedicated to you, integrated into your culture, and work as long-term team members, not temporary vendors."
+      },
+      {
+        "question": "Do I manage the team, or do you?",
+        "answer": "We offer a co-managed model. You retain direct control over their daily tasks, priorities, and workflows—just like your local team. We handle the HR, payroll, benefits, equipment, and compliance side, while providing ongoing support to ensure the relationship thrives."
+      },
+      {
+        "question": "Where are your teams located?",
+        "answer": "We have talent hubs in the Philippines and Mexico. The Philippines offers exceptional English proficiency and a service-oriented culture, while Mexico provides real-time collaboration (CST/EST time zones) and strong bilingual capabilities."
+      },
+      {
+        "question": "What is the typical cost savings?",
+        "answer": "While every role is different, our clients typically save 50-70% on total employment costs (salary, benefits, taxes, overhead) compared to hiring equivalent talent locally in the US, without sacrificing quality."
+      },
+      {
+        "question": "How long does it take to launch a team?",
+        "answer": "Our typical timeline is 2-4 weeks. This includes defining the role, sourcing candidates, interviewing, and onboarding. We prioritize finding the *right* fit over speed, but our active talent pool allows us to move quickly."
+      },
+      {
+        "question": "What about data security?",
+        "answer": "We take security seriously. All team members undergo background checks and work in secure environments. We implement strict data protection protocols, including secure networks, endpoint protection, and NDA compliance."
+      }
+    ],
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "We'd love to chat. Schedule a call to discuss your specific needs and concerns.",
+      "button": "Schedule a Q&A Call"
+    }
+  }
+}

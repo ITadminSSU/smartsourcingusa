@@ -1,0 +1,188 @@
+{
+  "howItWorks": {
+    "hero": {
+      "titleBefore": "How We Build",
+      "titleHighlight": "World-Class",
+      "titleAfter": "Remote Teams",
+      "subtitle": "Discover the rigorous 28-step hiring and integration process that separates Smart Sourcing USA from transactional outsourcing vendors."
+    },
+    "comparisonBanner": {
+      "traditional": {
+        "title": "Traditional Outsourcing",
+        "modelLabel": "The Cubicle Farm Model:",
+        "description": "Take your call, assign a warm body to a cubicle, send generic workers without vetting. Zero cultural fit, minimal screening, high turnover. You're just another seat to fill."
+      },
+      "smartsourcing": {
+        "title": "Smart Sourcing USA",
+        "modelLabel": "The Connection Model:",
+        "description": "Deep skills assessment, Criteria testing, cultural alignment, pre-training through SmartSourcing University, and 12-month ongoing support. You get integrated team members, not vendors."
+      }
+    },
+    "traditionalProcess": {
+      "title": "❌ What Traditional Outsourcing Looks Like",
+      "steps": [
+        {
+          "title": "1. Quick Phone Call",
+          "description": "Generic intake call, surface-level requirements gathering"
+        },
+        {
+          "title": "2. Assign to Cubicle",
+          "description": "Whoever is available gets assigned—no cultural fit assessment"
+        },
+        {
+          "title": "3. Minimal Screening",
+          "description": "Resume review only, no skills testing or competency validation"
+        },
+        {
+          "title": "4. Start Work Immediately",
+          "description": "No training, no integration support, sink or swim approach"
+        },
+        {
+          "title": "5. High Turnover",
+          "description": "When it doesn't work, replace with another warm body and repeat"
+        },
+        {
+          "title": "6. No Accountability",
+          "description": "No follow-up, no performance tracking, you're on your own"
+        }
+      ]
+    },
+    "process28": {
+      "title": "The Smart Sourcing USA 28-Step Process",
+      "subtitle": "From pre-training to 12-month follow-up, every step designed to ensure long-term success",
+      "tagline": "😄 Yeah, we paved this road too.",
+      "phases": [
+        {
+          "stepRange": "1-5",
+          "title": "Phase 1: SmartSourcing University Pre-Training",
+          "stepsLabel": "Steps 1-5:",
+          "description": "We recruit and train candidates through SmartSourcing University before client needs arise. Students complete role-specific programs, earn certifications, and graduate to our prepared talent pool with documented credentials, skills assessments, and work samples.",
+          "tags": ["Pre-Training", "Certification", "Ready Talent"]
+        },
+        {
+          "stepRange": "6-11",
+          "title": "Phase 2: Client Match & Rigorous Assessment",
+          "stepsLabel": "Steps 6-11:",
+          "description": "When you engage us, we create customized job posts and strategically match candidates from our talent pool. Candidates complete TWO Criteria Corp assessments, undergo comprehensive screening interviews, and pass through our quality gate. Only the top performers advance to you.",
+          "tags": ["Strategic Match", "Criteria Testing", "Quality Gate"]
+        },
+        {
+          "stepRange": "12-19",
+          "title": "Phase 3: Interview, Hire & Setup",
+          "stepsLabel": "Steps 12-19:",
+          "description": "Pre-vetted candidates receive interview preparation training before you meet them. You conduct the interview and make the final hiring decision. We then handle contracts, equipment assessment and provisioning, accounting setup, and administrative processing—all while you retain operational control.",
+          "tags": ["Client Prep", "Hire", "Infrastructure"]
+        },
+        {
+          "stepRange": "20-23",
+          "title": "Phase 4: Integration & Day 1 Launch",
+          "stepsLabel": "Steps 20-23:",
+          "description": "Your dedicated account representative is assigned. We conduct Train-the-Trainer sessions with your internal manager and deliver comprehensive 90-day onboarding materials. Day 1 begins with your team member fully equipped, trained, and supported for seamless integration into your workflows and culture.",
+          "tags": ["Support", "Onboarding", "Launch"]
+        },
+        {
+          "stepRange": "24-28",
+          "title": "Phase 5: Ongoing Success & Long-Term Partnership",
+          "stepsLabel": "Steps 24-28:",
+          "description": "Structured follow-ups at 30, 60, and 90 days ensure smooth integration and address any early challenges. Strategic reviews at 6 months assess skill advancement opportunities. At 12 months and beyond, we conduct annual performance reviews and provide continuous improvement recommendations. Support continues as long as your team member is with you.",
+          "tags": ["Checkpoint", "Growth", "Partnership"]
+        }
+      ]
+    },
+    "criteria": {
+      "title": "🎯 The Criteria Assessment Difference",
+      "intro": "Why do we invest in Criteria Corp assessments? Because generic interviews can't predict construction competency. Objective data can.",
+      "cards": [
+        {
+          "title": "Technical Skills Validation",
+          "description": "Software proficiency tests measuring actual AutoCAD, Revit, PlanSwift, or Excel capabilities through timed practical exercises."
+        },
+        {
+          "title": "Cognitive Ability Assessment",
+          "description": "Problem-solving, pattern recognition, calculation accuracy, and engineering judgment evaluation."
+        },
+        {
+          "title": "Communication Competency",
+          "description": "Written and verbal English proficiency measuring technical explanation clarity and documentation quality."
+        },
+        {
+          "title": "Personality & Cultural Fit",
+          "description": "Behavioral assessments measuring teamwork orientation, customer service mindset, and adaptability to your company culture."
+        },
+        {
+          "title": "Construction Domain Knowledge",
+          "description": "Code interpretation, specification understanding, and industry-specific methodology comprehension."
+        },
+        {
+          "title": "Predictive Performance Data",
+          "description": "Assessment scores correlate with actual job performance—reducing hiring risk by 40-60% compared to interviews alone."
+        }
+      ]
+    },
+    "comparisonTable": {
+      "title": "Head-to-Head Process Comparison",
+      "subtitle": "See exactly where traditional outsourcing fails and Smart Sourcing USA delivers",
+      "headers": {
+        "processElement": "Process Element",
+        "smartsourcing": "Smart Sourcing USA",
+        "traditional": "Traditional Outsourcing"
+      },
+      "rows": [
+        "Pre-Training Program",
+        "Criteria Assessments",
+        "Skills Certification",
+        "Cultural Fit Assessment",
+        "Client Interview Control",
+        "Equipment Provisioning",
+        "Dedicated Account Rep",
+        "90-Day Onboarding Plan",
+        "Monthly Check-Ins (First 3 Months)",
+        "12-Month Follow-Up Support",
+        "Performance Tracking",
+        "Ongoing Professional Development"
+      ],
+      "stats": [
+        {
+          "value": "28",
+          "label": "Total Process Steps"
+        },
+        {
+          "value": "90",
+          "label": "Days Structured Onboarding"
+        },
+        {
+          "value": "12+",
+          "label": "Months Ongoing Support"
+        },
+        {
+          "value": "2+",
+          "label": "Criteria Assessments"
+        },
+        {
+          "value": "40-60%",
+          "label": "Hiring Risk Reduction"
+        }
+      ]
+    },
+    "placementTracker": {
+      "title": "Proven Track Record Across Industries",
+      "subtitle": "Real placements, real retention. See how long our team members have been successfully integrated with clients across construction verticals.",
+      "loading": "Loading...",
+      "monthsTemplate": "{count} months",
+      "placements": {
+        "asphalt": "Commercial Asphalt",
+        "cladding": "Cladding & Siding",
+        "gc": "General Contracting",
+        "arch": "Architectural Services",
+        "pm": "Project Management"
+      },
+      "footer": "Each tick represents one month of successful team member retention. Average client retention:",
+      "footerRetention": "15+ months"
+    },
+    "cta": {
+      "title": "Ready to Build with Confidence?",
+      "description": "Experience the difference between transactional outsourcing and connection-based team building. Our 28-step process ensures you get integrated team members, not cubicle workers.",
+      "button": "Schedule Your Discovery Call"
+    }
+  }
+}

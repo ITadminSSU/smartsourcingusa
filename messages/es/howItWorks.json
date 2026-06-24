@@ -1,0 +1,188 @@
+{
+  "howItWorks": {
+    "hero": {
+      "titleBefore": "Cómo construimos",
+      "titleHighlight": "equipos remotos",
+      "titleAfter": "de clase mundial",
+      "subtitle": "Conozca el riguroso proceso de contratación e integración de 28 pasos que distingue a Smart Sourcing USA de los proveedores de outsourcing transaccional."
+    },
+    "comparisonBanner": {
+      "traditional": {
+        "title": "Outsourcing tradicional",
+        "modelLabel": "El modelo de granja de cubículos:",
+        "description": "Atienden su llamada, asignan a quien esté disponible a un cubículo y envían personal genérico sin evaluación. Cero encaje cultural, cribado mínimo y alta rotación. Usted es solo otro puesto por llenar."
+      },
+      "smartsourcing": {
+        "title": "Smart Sourcing USA",
+        "modelLabel": "El modelo de conexión:",
+        "description": "Evaluación profunda de habilidades, pruebas Criteria, alineación cultural, capacitación previa en SmartSourcing University y soporte continuo durante 12 meses. Obtiene integrantes de equipo, no proveedores."
+      }
+    },
+    "traditionalProcess": {
+      "title": "❌ Así se ve el outsourcing tradicional",
+      "steps": [
+        {
+          "title": "1. Llamada telefónica rápida",
+          "description": "Llamada de intake genérica y levantamiento superficial de requisitos"
+        },
+        {
+          "title": "2. Asignación a cubículo",
+          "description": "Se asigna quien esté disponible, sin evaluación de encaje cultural"
+        },
+        {
+          "title": "3. Cribado mínimo",
+          "description": "Solo revisión de currículum, sin pruebas de habilidades ni validación de competencias"
+        },
+        {
+          "title": "4. Inicio inmediato del trabajo",
+          "description": "Sin capacitación ni soporte de integración: modelo de supervivencia"
+        },
+        {
+          "title": "5. Alta rotación",
+          "description": "Si no funciona, sustituyen por otra persona disponible y repiten el ciclo"
+        },
+        {
+          "title": "6. Sin responsabilidad",
+          "description": "Sin seguimiento, sin monitoreo de desempeño: usted queda solo"
+        }
+      ]
+    },
+    "process28": {
+      "title": "El proceso de 28 pasos de Smart Sourcing USA",
+      "subtitle": "Desde la capacitación previa hasta el seguimiento a 12 meses: cada paso diseñado para el éxito a largo plazo",
+      "tagline": "😄 Sí, nosotros también pavimentamos este camino.",
+      "phases": [
+        {
+          "stepRange": "1-5",
+          "title": "Fase 1: Capacitación previa en SmartSourcing University",
+          "stepsLabel": "Pasos 1-5:",
+          "description": "Reclutamos y capacitamos candidatos en SmartSourcing University antes de que surjan necesidades del cliente. Los estudiantes completan programas por rol, obtienen certificaciones y pasan a nuestro pool de talento preparado con credenciales documentadas, evaluaciones de habilidades y muestras de trabajo.",
+          "tags": ["Capacitación previa", "Certificación", "Talento listo"]
+        },
+        {
+          "stepRange": "6-11",
+          "title": "Fase 2: Emparejamiento con el cliente y evaluación rigurosa",
+          "stepsLabel": "Pasos 6-11:",
+          "description": "Cuando nos contrata, creamos vacantes personalizadas y emparejamos estratégicamente candidatos de nuestro pool. Los candidatos completan DOS evaluaciones de Criteria Corp, pasan entrevistas de cribado exhaustivas y cruzan nuestro filtro de calidad. Solo los mejores avanzan hacia usted.",
+          "tags": ["Emparejamiento estratégico", "Pruebas Criteria", "Filtro de calidad"]
+        },
+        {
+          "stepRange": "12-19",
+          "title": "Fase 3: Entrevista, contratación y configuración",
+          "stepsLabel": "Pasos 12-19:",
+          "description": "Los candidatos prevalidados reciben preparación para entrevistas antes de que los conozca. Usted conduce la entrevista y toma la decisión final de contratación. Nosotros gestionamos contratos, evaluación y provisión de equipo, configuración contable y trámites administrativos, mientras usted conserva el control operativo.",
+          "tags": ["Preparación del cliente", "Contratación", "Infraestructura"]
+        },
+        {
+          "stepRange": "20-23",
+          "title": "Fase 4: Integración y lanzamiento del día 1",
+          "stepsLabel": "Pasos 20-23:",
+          "description": "Se asigna su representante de cuenta dedicado. Realizamos sesiones Train-the-Trainer con su gerente interno y entregamos materiales integrales de incorporación de 90 días. El día 1 comienza con su integrante totalmente equipado, capacitado y respaldado para una integración fluida en sus flujos y cultura.",
+          "tags": ["Soporte", "Incorporación", "Lanzamiento"]
+        },
+        {
+          "stepRange": "24-28",
+          "title": "Fase 5: Éxito continuo y alianza a largo plazo",
+          "stepsLabel": "Pasos 24-28:",
+          "description": "Seguimientos estructurados a los 30, 60 y 90 días aseguran una integración fluida y atienden retos tempranos. Revisiones estratégicas a los 6 meses evalúan oportunidades de desarrollo de habilidades. A los 12 meses y más allá, realizamos revisiones anuales de desempeño y recomendaciones de mejora continua. El soporte continúa mientras su integrante esté con usted.",
+          "tags": ["Punto de control", "Crecimiento", "Alianza"]
+        }
+      ]
+    },
+    "criteria": {
+      "title": "🎯 La diferencia de las evaluaciones Criteria",
+      "intro": "¿Por qué invertimos en evaluaciones de Criteria Corp? Porque las entrevistas genéricas no predicen competencia en construcción. Los datos objetivos sí pueden.",
+      "cards": [
+        {
+          "title": "Validación de habilidades técnicas",
+          "description": "Pruebas de dominio de software que miden capacidades reales en AutoCAD, Revit, PlanSwift o Excel mediante ejercicios prácticos cronometrados."
+        },
+        {
+          "title": "Evaluación de habilidad cognitiva",
+          "description": "Resolución de problemas, reconocimiento de patrones, precisión de cálculos y evaluación de criterio de ingeniería."
+        },
+        {
+          "title": "Competencia comunicativa",
+          "description": "Dominio del inglés escrito y oral que mide claridad en explicaciones técnicas y calidad de documentación."
+        },
+        {
+          "title": "Personalidad y encaje cultural",
+          "description": "Evaluaciones conductuales que miden orientación al trabajo en equipo, mentalidad de servicio al cliente y adaptabilidad a la cultura de su empresa."
+        },
+        {
+          "title": "Conocimiento del dominio de construcción",
+          "description": "Interpretación de códigos, comprensión de especificaciones y dominio de metodologías específicas del sector."
+        },
+        {
+          "title": "Datos predictivos de desempeño",
+          "description": "Las puntuaciones de las evaluaciones se correlacionan con el desempeño real en el puesto, reduciendo el riesgo de contratación entre 40 y 60 % frente a entrevistas solas."
+        }
+      ]
+    },
+    "comparisonTable": {
+      "title": "Comparación directa de procesos",
+      "subtitle": "Vea exactamente dónde falla el outsourcing tradicional y dónde Smart Sourcing USA cumple",
+      "headers": {
+        "processElement": "Elemento del proceso",
+        "smartsourcing": "Smart Sourcing USA",
+        "traditional": "Outsourcing tradicional"
+      },
+      "rows": [
+        "Programa de capacitación previa",
+        "Evaluaciones Criteria",
+        "Certificación de habilidades",
+        "Evaluación de encaje cultural",
+        "Control de entrevistas del cliente",
+        "Provisión de equipo",
+        "Representante de cuenta dedicado",
+        "Plan de incorporación de 90 días",
+        "Revisiones mensuales (primeros 3 meses)",
+        "Soporte de seguimiento a 12 meses",
+        "Seguimiento de desempeño",
+        "Desarrollo profesional continuo"
+      ],
+      "stats": [
+        {
+          "value": "28",
+          "label": "Pasos totales del proceso"
+        },
+        {
+          "value": "90",
+          "label": "Días de incorporación estructurada"
+        },
+        {
+          "value": "12+",
+          "label": "Meses de soporte continuo"
+        },
+        {
+          "value": "2+",
+          "label": "Evaluaciones Criteria"
+        },
+        {
+          "value": "40-60%",
+          "label": "Reducción del riesgo de contratación"
+        }
+      ]
+    },
+    "placementTracker": {
+      "title": "Historial comprobado en múltiples industrias",
+      "subtitle": "Colocaciones reales, retención real. Vea cuánto tiempo llevan integrados con éxito nuestros integrantes en distintos verticales de construcción.",
+      "loading": "Cargando...",
+      "monthsTemplate": "{count} meses",
+      "placements": {
+        "asphalt": "Asfalto comercial",
+        "cladding": "Revestimiento y fachada",
+        "gc": "Contratación general",
+        "arch": "Servicios de arquitectura",
+        "pm": "Gestión de proyectos"
+      },
+      "footer": "Cada marca representa un mes de retención exitosa del integrante. Retención promedio de clientes:",
+      "footerRetention": "más de 15 meses"
+    },
+    "cta": {
+      "title": "¿Listo para construir con confianza?",
+      "description": "Experimente la diferencia entre el outsourcing transaccional y la construcción de equipos basada en conexión. Nuestro proceso de 28 pasos le garantiza integrantes de equipo, no trabajadores de cubículo.",
+      "button": "Agende su llamada de descubrimiento"
+    }
+  }
+}

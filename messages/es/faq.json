@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "hero": {
+      "title": "Preguntas",
+      "titleHighlight": "frecuentes",
+      "subtitle": "Todo lo que necesita saber para construir su equipo remoto basado en conexión."
+    },
+    "items": [
+      {
+        "question": "¿En qué se diferencia Smart Sourcing USA del outsourcing tradicional?",
+        "answer": "El outsourcing tradicional suele ser transaccional, por proyecto, con tarifas ocultas y poca transparencia. Nosotros construimos equipos basados en conexión. Su personal remoto está dedicado a usted, integrado en su cultura y trabaja como miembro de equipo a largo plazo, no como proveedor temporal."
+      },
+      {
+        "question": "¿Yo gestiono el equipo o lo gestionan ustedes?",
+        "answer": "Ofrecemos un modelo co-gestionado. Usted conserva el control directo de tareas diarias, prioridades y flujos de trabajo, igual que con su equipo local. Nosotros nos encargamos de RR. HH., nómina, beneficios, equipo y cumplimiento, con soporte continuo para que la relación prospere."
+      },
+      {
+        "question": "¿Dónde están ubicados sus equipos?",
+        "answer": "Tenemos centros de talento en Filipinas y México. Filipinas ofrece excelente dominio del inglés y cultura de servicio; México permite colaboración en tiempo real (zonas CST/EST) y fuertes capacidades bilingües."
+      },
+      {
+        "question": "¿Cuál es el ahorro típico en costos?",
+        "answer": "Cada rol es distinto, pero nuestros clientes suelen ahorrar entre 50 y 70 % en costos totales de empleo (salario, beneficios, impuestos, gastos generales) frente a contratar talento equivalente localmente en EE. UU., sin sacrificar calidad."
+      },
+      {
+        "question": "¿Cuánto tarda el lanzamiento de un equipo?",
+        "answer": "El plazo típico es de 2 a 4 semanas: definición del rol, búsqueda de candidatos, entrevistas e incorporación. Priorizamos el encaje correcto sobre la velocidad, y nuestro pool activo de talento nos permite avanzar con rapidez."
+      },
+      {
+        "question": "¿Qué hay de la seguridad de los datos?",
+        "answer": "La seguridad es prioritaria. Todos los integrantes pasan verificaciones de antecedentes y trabajan en entornos seguros. Aplicamos protocolos estrictos: redes seguras, protección de endpoints y cumplimiento de NDAs."
+      }
+    ],
+    "cta": {
+      "title": "¿Aún tiene preguntas?",
+      "description": "Con gusto conversamos. Agende una llamada para hablar de sus necesidades y inquietudes específicas.",
+      "button": "Agendar llamada de preguntas y respuestas"
+    }
+  }
+}

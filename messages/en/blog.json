@@ -1,0 +1,57 @@
+{
+  "blog": {
+    "hero": {
+      "title": "Insights &",
+      "titleHighlight": "Perspectives",
+      "subtitle": "Expert advice on building, managing, and scaling high-performing remote teams."
+    },
+    "posts": [
+      {
+        "title": "Connection vs. Transaction: The Hidden Cost of Cheap Outsourcing",
+        "excerpt": "Why choosing the lowest hourly rate often costs you more in the long run—and how connection-based models solve the churn problem.",
+        "category": "Thought Leadership",
+        "date": "October 12, 2025",
+        "readTime": "5 min read"
+      },
+      {
+        "title": "5 Signs It's Time to Scale Your Team Globally",
+        "excerpt": "Are you turning down work? Is your core team burnout? Here are the key indicators that you're ready to expand your capacity with remote talent.",
+        "category": "Scaling Strategies",
+        "date": "September 28, 2025",
+        "readTime": "4 min read"
+      },
+      {
+        "title": "How to Onboard Remote Teams Effectively",
+        "excerpt": "A step-by-step guide to integrating global team members into your culture, tools, and workflows from day one.",
+        "category": "Management Guides",
+        "date": "September 15, 2025",
+        "readTime": "6 min read"
+      },
+      {
+        "title": "The Future of Construction Estimating is Remote",
+        "excerpt": "How forward-thinking construction firms are leveraging global talent to win more bids and reduce overhead.",
+        "category": "Industry Trends",
+        "date": "August 30, 2025",
+        "readTime": "4 min read"
+      },
+      {
+        "title": "Building Trust Across Time Zones",
+        "excerpt": "Practical tips for maintaining strong communication and trust with teams in the Philippines and Mexico.",
+        "category": "Culture",
+        "date": "August 12, 2025",
+        "readTime": "5 min read"
+      },
+      {
+        "title": "Why We Chose Mexico and the Philippines",
+        "excerpt": "An inside look at our global talent hubs and why they offer the best combination of skill, culture, and value for U.S. companies.",
+        "category": "Our Model",
+        "date": "July 24, 2025",
+        "readTime": "7 min read"
+      }
+    ],
+    "newsletter": {
+      "title": "Stay Connected",
+      "description": "Get the latest insights on remote team building delivered to your inbox."
+    }
+  }
+}

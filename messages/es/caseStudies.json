@@ -1,0 +1,28 @@
+{
+  "caseStudies": {
+    "hero": {
+      "badge": "Resultados Reales • Números Reales",
+      "title": "Licitaciones Entregadas para",
+      "titleHighlight": "Nuestros Clientes",
+      "subtitle": "Un resumen del volumen de estimaciones y el valor de las licitaciones que Smart Sourcing USA ha entregado en trabajos de exteriores y tablaroca (drywall)."
+    },
+    "stats": {
+      "sectionTitle": "Nuestro Trabajo",
+      "sectionTitleHighlight": "En Números",
+      "sectionSubtitle": "Totales actualizados de todos los proyectos que hemos apoyado.",
+      "totalBids": "Número Total de Licitaciones",
+      "exteriorBids": "Licitaciones de Exterior",
+      "drywallBids": "Licitaciones de Tablaroca",
+      "exteriorAmount": "Monto de Licitación de Exterior",
+      "drywallAmount": "Monto de Tablaroca"
+    },
+    "cta": {
+      "title": "¿Listo para Ganar",
+      "titleHighlight": "Más Licitaciones?",
+      "description": "Deje que Smart Sourcing USA se encargue de sus estimaciones para que pueda licitar más, ganar más y crecer más rápido.",
+      "primaryButton": "Comenzar",
+      "secondaryButton": "Conéctese en LinkedIn",
+      "footnote": "Sin contratos a largo plazo. Aumente o reduzca cuando quiera."
+    }
+  }
+}

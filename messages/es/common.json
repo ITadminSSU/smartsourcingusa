@@ -1,0 +1,21 @@
+{
+  "common": {
+    "keyFeatures": "Características clave",
+    "getStarted": "Comenzar",
+    "scheduleStrategyCall": "Agendar una llamada estratégica",
+    "viewAllServices": "Ver todos los servicios",
+    "readMore": "Leer más →",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "subscribe": "Suscribirse",
+    "emailPlaceholder": "Ingrese su correo electrónico",
+    "articleImage": "Imagen del artículo",
+    "close": "Cerrar",
+    "viewProfile": "Ver perfil",
+    "department": "Departamento",
+    "since": "Desde",
+    "tenure": "Antigüedad",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  }
+}

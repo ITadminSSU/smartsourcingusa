@@ -1,0 +1,28 @@
+{
+  "caseStudies": {
+    "hero": {
+      "badge": "Real Results • Real Numbers",
+      "title": "Bids Delivered for",
+      "titleHighlight": "Our Clients",
+      "subtitle": "A snapshot of the estimating volume and bid value Smart Sourcing USA has delivered across exterior and drywall scopes."
+    },
+    "stats": {
+      "sectionTitle": "Our Work",
+      "sectionTitleHighlight": "By the Numbers",
+      "sectionSubtitle": "Up-to-date totals across every project we have supported.",
+      "totalBids": "Total Number of Bids",
+      "exteriorBids": "Bids for Exterior",
+      "drywallBids": "Bids for Drywall",
+      "exteriorAmount": "Exterior Bid Amount",
+      "drywallAmount": "Drywall Amount"
+    },
+    "cta": {
+      "title": "Ready to Win",
+      "titleHighlight": "More Bids?",
+      "description": "Let Smart Sourcing USA handle your estimating so you can bid more, win more, and grow faster.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "Connect on LinkedIn",
+      "footnote": "No long-term contracts. Scale up or down anytime."
+    }
+  }
+}

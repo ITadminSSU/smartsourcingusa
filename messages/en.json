@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "title": "Smart Sourcing USA - Connection-Based Remote Teams",
+    "description": "Connection-Based Remote Teams, Not Transactional Outsourcing. Build long-term, transcontinental connections with teams in the Philippines and Mexico."
+  },
+  "nav": {
+    "about": "Who We Are",
+    "services": "What We Do",
+    "howItWorks": "How It Works",
+    "caseStudies": "Completed Projects",
+    "team": "Our Team",
+    "careers": "Careers",
+    "contact": "Contact",
+    "toggleLabel": "Language",
+    "english": "EN",
+    "spanish": "ES"
+  },
+  "footer": {
+    "tagline": "Connection-based talent partner for U.S. companies. Offices in Philippines and Mexico.",
+    "motto": "Powered by people, defined by connection.",
+    "quickLinks": "Quick Links",
+    "servicesTitle": "Services",
+    "learnMore": "Learn More",
+    "whoWeAre": "Who We Are",
+    "servicesLink": "Services",
+    "howItWorks": "How It Works",
+    "contactUs": "Contact Us",
+    "careers": "Careers",
+    "faq": "FAQ",
+    "operationsAdmin": "Operations & Admin",
+    "customerSupport": "Customer Support",
+    "backOffice": "Back-Office & Finance",
+    "construction": "Construction & Field",
+    "guide": "Connection vs. Outsourcing Guide",
+    "caseStudies": "Case Studies",
+    "blog": "Blog",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 Smart Sourcing USA. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title": "Build Remote Teams That Feel Like",
+      "titleHighlight": "Your Own",
+      "subtitle": "Connection-based staffing solutions for construction, architecture, and professional services. Access top talent in the Philippines and Mexico without the overhead of traditional outsourcing.",
+      "quote": "\"Where connection leads, performance follows\"",
+      "cta": "Discover Why We're Different"
+    },
+    "connectionBanner": {
+      "title": "Connection Over Transaction",
+      "description": "We don't just outsource—we build integrated teams that become extensions of your company, not vendors on the side."
+    },
+    "whyChoose": {
+      "title": "Why Choose Smart Sourcing USA?",
+      "subtitle": "We've redefined remote staffing for construction and professional services by putting relationships first."
+    },
+    "benefits": [
+      {
+        "title": "Connection-Based Approach",
+        "description": "Traditional outsourcing is transactional. We build long-term partnerships where your remote team integrates seamlessly into your culture, workflows, and goals. They feel like your people because we invest in making that connection real."
+      },
+      {
+        "title": "On-the-Ground Presence",
+        "description": "With offices in the Philippines and Mexico, we provide hands-on support, cultural alignment, and local expertise. You get the benefits of global talent with the reliability of boots-on-the-ground management."
+      },
+      {
+        "title": "Construction Industry Expertise",
+        "description": "We specialize in construction staffing—from estimators and project coordinators to architects and administrative support. We understand asphalt contractors, general contractors, cladding specialists, and the unique demands of your industry."
+      },
+      {
+        "title": "Cost Efficiency Without Compromise",
+        "description": "Reduce operational costs by 40-60% compared to U.S. hiring while maintaining quality. No overhead for office space, equipment, or benefits—we handle all infrastructure so you can focus on growth."
+      },
+      {
+        "title": "Scalability & Flexibility",
+        "description": "Scale your workforce up or down based on project demands without long-term commitments. Whether you need one estimator or an entire project team, we adapt to your cycles and workload fluctuations."
+      },
+      {
+        "title": "Pre-Vetted, Educated Workforce",
+        "description": "Access a diverse pool of highly educated professionals. The Philippines and Mexico offer strong technical education systems, producing talent in engineering, architecture, project management, and business operations at competitive rates."
+      },
+      {
+        "title": "Cultural Fit & Retention",
+        "description": "We don't just match skills—we match values. Our upfront investment in understanding your culture leads to better team integration, higher retention rates, and fewer headaches from vendor churn."
+      },
+      {
+        "title": "Faster Onboarding & Training",
+        "description": "We handle recruitment, training, and integration. Your new team members arrive ready to contribute, embedded in your tools, processes, and communication rhythms from day one."
+      },
+      {
+        "title": "Risk Mitigation & Compliance",
+        "description": "We manage all employment compliance, HR administration, and regulatory requirements in-country. You avoid the complexity of international employment law while maintaining full operational control."
+      }
+    ],
+    "comparison": {
+      "title": "Head-to-Head Process Comparison",
+      "subtitle": "See exactly where traditional outsourcing fails and Smart Sourcing USA delivers",
+      "feature": "Feature",
+      "us": "Smart Sourcing USA",
+      "traditional": "Traditional Outsourcing",
+      "rows": [
+        {
+          "feature": "Culture Integration",
+          "us": "Deep upfront investment",
+          "traditional": "Minimal alignment"
+        },
+        {
+          "feature": "Team Retention",
+          "us": "Long-term partnerships",
+          "traditional": "High turnover"
+        },
+        {
+          "feature": "On-Ground Support",
+          "us": "Local offices in PH & MX",
+          "traditional": "Remote management only"
+        },
+        {
+          "feature": "Industry Specialization",
+          "us": "Construction expertise",
+          "traditional": "Generic services"
+        },
+        {
+          "feature": "Workflow Customization",
+          "us": "Tailored to your processes",
+          "traditional": "One-size-fits-all"
+        },
+        {
+          "feature": "Feels Like Your Team",
+          "us": "Integrated extension",
+          "traditional": "External vendor"
+        }
+      ]
+    },
+    "testimonial": {
+      "quote": "\"We tried traditional outsourcing and kept churning through vendors. Smart Sourcing USA built us a connected team in the Philippines that feels like our own people—and performance shows it.\"",
+      "attribution": "— Construction Industry Client"
+    },
+    "process": {
+      "title": "How We Build Your Team",
+      "steps": [
+        {
+          "title": "Discovery & Mapping",
+          "description": "We map your workflows, culture, and goals to identify where remote teams create the most leverage for your business."
+        },
+        {
+          "title": "Design & Build",
+          "description": "We design roles, hiring profiles, and work cadences—then recruit and build your team in the Philippines or Mexico."
+        },
+        {
+          "title": "Integration & Optimization",
+          "description": "We embed your team into your tools and rhythms, then provide ongoing support and optimization to ensure sustained performance."
+        }
+      ]
+    },
+    "services": {
+      "label": "OUR PRODUCTS",
+      "title": "Specialized Services for Construction",
+      "subtitle": "Remote teams designed for the unique demands of your industry",
+      "items": [
+        {
+          "title": "Construction Estimating",
+          "description": "Takeoff support, bid preparation, cost analysis, and vendor coordination for asphalt, masonry, cladding, and general contracting."
+        },
+        {
+          "title": "Project Coordination",
+          "description": "Documentation management, scheduling support, submittal tracking, and RFI coordination to keep projects on track."
+        },
+        {
+          "title": "Architecture & Drafting",
+          "description": "CAD drafting, design support, plan review, and technical documentation for architectural and engineering firms."
+        },
+        {
+          "title": "Administrative Support",
+          "description": "Executive assistants, coordinators, schedulers, and documentation teams that keep operations running smoothly."
+        },
+        {
+          "title": "Customer Service",
+          "description": "Phone, chat, and email support teams trained to mirror your brand voice and deliver exceptional service."
+        },
+        {
+          "title": "Back Office Operations",
+          "description": "Billing, accounts payable, reporting, and financial workflow management for construction firms."
+        }
+      ]
+    },
+    "software": {
+      "title": "Software We Work With",
+      "subtitle": "Our teams are trained on the industry-leading tools you already use."
+    },
+    "stats": {
+      "title": "The Smart Sourcing USA Advantage",
+      "subtitle": "Real results for construction businesses like yours",
+      "costReduction": "Cost Reduction",
+      "offices": "Global Office Locations",
+      "experience": "Years Experience",
+      "placements": "Successful Placements"
+    },
+    "cta": {
+      "title": "Ready to Build Your Connected Team?",
+      "description": "Let's design a connection-based remote team that feels like an extension of your core staff—not a vendor on the side.",
+      "button": "Schedule a Discovery Call"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "More Than Outsourcing.",
+      "titleLine2": "We Are Your",
+      "titleHighlight": "Global Team.",
+      "subtitle": "Smart Sourcing USA was founded on a simple belief: The best teams aren't defined by geography, but by connection."
+    },
+    "mission": {
+      "label": "OUR MISSION",
+      "title": "Redefining How The World Works Together",
+      "p1": "For too long, \"outsourcing\" has meant transactional relationships, hidden fees, and disposable teams. We knew there had to be a better way.",
+      "p2": "We built Smart Sourcing USA to bridge the gap between U.S. companies and world-class talent in the Philippines and Mexico. We don't just fill seats; we build integrated, high-performing teams that share your culture, your goals, and your vision.",
+      "p3": "Our mission is to help businesses scale sustainably by providing the one thing traditional BPOs miss:",
+      "p3Bold": "Real Human Connection.",
+      "imageAlt": "Business people worker team collaboration"
+    },
+    "presence": {
+      "title": "A Transcontinental Network",
+      "subtitle": "With offices and talent hubs across three key regions, we offer the flexibility, time-zone alignment, and diverse skill sets your business needs.",
+      "usa": {
+        "title": "United States",
+        "description": "Headquarters & Client Strategy. We are your local partners, understanding the nuance of U.S. business culture."
+      },
+      "mexico": {
+        "title": "Mexico",
+        "description": "Nearshore Talent Hub. Real-time collaboration, bilingual professionals, and cultural proximity."
+      },
+      "philippines": {
+        "title": "Philippines",
+        "description": "Global Operations Center. Highly skilled, English-proficient professionals dedicated to service excellence."
+      }
+    },
+    "values": {
+      "title": "Built on Values",
+      "subtitle": "These core principles guide every partnership we build and every team member we hire.",
+      "items": [
+        {
+          "title": "Connection First",
+          "description": "People perform better when they feel part of a team, not just a vendor list."
+        },
+        {
+          "title": "Radical Transparency",
+          "description": "No hidden fees, no black boxes. You know exactly who is working for you and how."
+        },
+        {
+          "title": "Long-Term Growth",
+          "description": "We don't look for quick fixes. We build foundations for years of scalable success."
+        },
+        {
+          "title": "Excellence Always",
+          "description": "We hire the top 1% of talent and invest in their continuous development."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Meet Your New Team?",
+      "subtitle": "Stop outsourcing. Start connecting.",
+      "schedule": "Schedule a Strategy Call",
+      "stories": "View Success Stories"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Let's Build Your Connection-Based Team",
+      "subtitle": "Ready to move beyond transactional outsourcing?",
+      "description": "Tell us about your project or pick a time to talk. We'll help you build a long-term, transcontinental connection that scales your business with teams that feel like your own."
+    },
+    "tabs": {
+      "inquiry": "Client Inquiry",
+      "schedule": "Schedule a Call"
+    },
+    "getInTouch": {
+      "title": "Get in Touch",
+      "description": "We're here to help you build connection-based remote teams that transform how you scale.",
+      "emailLabel": "Email Us"
+    },
+    "whyCall": {
+      "title": "Why Schedule a Call?",
+      "items": [
+        "Discover how connection-based teams differ from traditional outsourcing",
+        "Learn about our proven process for building remote teams",
+        "Get a customized strategy for your business needs",
+        "See real examples of successful partnerships"
+      ]
+    },
+    "inquiry": {
+      "title": "Tell Us About Your Project",
+      "description": "Share your company details and estimating needs. We'll review your inquiry and respond within 24 hours.",
+      "scheduleHint": "Already know what you need and want to book a call?",
+      "scheduleLink": "Go to Schedule a Call →",
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "John Smith"
+        },
+        "email": {
+          "label": "Work Email",
+          "placeholder": "you@company.com"
+        },
+        "phone": {
+          "label": "Phone (optional)",
+          "placeholder": "+1 (555) 000-0000"
+        },
+        "companyName": {
+          "label": "Company Name",
+          "placeholder": "Your company name"
+        },
+        "tradeScope": {
+          "label": "Trade / Scope",
+          "placeholder": "Select your trade or scope",
+          "options": [
+            "Asphalt / Paving",
+            "Residential Construction",
+            "Commercial Construction",
+            "Civil / Infrastructure",
+            "General Contracting",
+            "Other"
+          ]
+        },
+        "estimatorsNeeded": {
+          "label": "Estimators Needed",
+          "placeholder": "Select quantity",
+          "options": ["1", "2–3", "4–5", "6+"]
+        },
+        "software": {
+          "label": "Software Used (check all that apply)",
+          "otherPlaceholder": "Please specify other software"
+        },
+        "notes": {
+          "label": "Additional Details (optional)",
+          "placeholder": "Project volume, timeline, current team size, or anything else we should know..."
+        }
+      },
+      "software": {
+        "planSwift": "PlanSwift",
+        "bluebeam": "Bluebeam",
+        "hcssHeavyBid": "HCSS / HeavyBid",
+        "procore": "Procore",
+        "b2w": "B2W",
+        "measureSquare": "Measure Square",
+        "googleEarthPro": "Google Earth Pro",
+        "excel": "Excel / Spreadsheets",
+        "other": "Other"
+      },
+      "submit": "Submit Inquiry",
+      "submitting": "Sending...",
+      "error": "Something went wrong. Please try again or email sales@smartsourcingusa.com directly.",
+      "success": {
+        "title": "Inquiry Received!",
+        "description": "Thank you for reaching out. Our team will review your details and get back to you within 24 hours.",
+        "submitAnother": "Submit another inquiry"
+      }
+    },
+    "schedule": {
+      "title": "Book Your Strategy Call",
+      "description": "Pick a time that works for you and book instantly. You'll receive a confirmation right away.",
+      "bookingUnavailable": "Online booking is being set up. In the meantime, use the Client Inquiry form or email us and we'll schedule your call:",
+      "howItWorks": "Share your preferred days and times below. Our team will reach out within 24 hours to confirm your strategy call.",
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "John Smith"
+        },
+        "email": {
+          "label": "Work Email",
+          "placeholder": "you@company.com"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "+1 (555) 000-0000"
+        },
+        "companyName": {
+          "label": "Company Name (optional)",
+          "placeholder": "Your company name"
+        },
+        "preferredDays": {
+          "label": "Preferred Days",
+          "placeholder": "e.g. Mon–Wed next week, or June 10–12"
+        },
+        "preferredTime": {
+          "label": "Preferred Time of Day",
+          "placeholder": "Select a time",
+          "options": ["Morning (8am–12pm)", "Afternoon (12pm–5pm)", "Evening (5pm–8pm)", "Flexible"]
+        },
+        "timezone": {
+          "label": "Your Timezone",
+          "placeholder": "Select timezone",
+          "options": [
+            "US Eastern (ET)",
+            "US Central (CT)",
+            "US Mountain (MT)",
+            "US Pacific (PT)",
+            "Philippines (PHT)",
+            "Mexico Northwest (PT) — Baja California",
+            "Mexico Pacific (MT) — Sonora, Sinaloa, Nayarit",
+            "Mexico Central (CT) — Mexico City, Guadalajara",
+            "Mexico Southeast (ET) — Quintana Roo",
+            "Other"
+          ]
+        },
+        "notes": {
+          "label": "Anything else? (optional)",
+          "placeholder": "Best number to reach you, meeting topic, etc."
+        }
+      },
+      "submit": "Request a Call",
+      "submitting": "Sending...",
+      "error": "Something went wrong. Please try again or email sales@smartsourcingusa.com directly.",
+      "success": {
+        "title": "Request Received!",
+        "description": "Thank you! We'll contact you within 24 hours to confirm your strategy call.",
+        "submitAnother": "Submit another request"
+      },
+      "inquiryHint": "Want to share full project details first?",
+      "inquiryLink": "Fill out the Client Inquiry form →"
+    },
+    "bottomCta": {
+      "title": "Not Ready to Schedule? Let's Start a Conversation",
+      "description": "Have questions? Want to learn more? Submit an inquiry and we'll get back to you within 24 hours.",
+      "inquiry": "Submit Client Inquiry",
+      "learnMore": "Learn More About Us"
+    }
+  }
+}

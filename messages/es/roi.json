@@ -1,0 +1,499 @@
+{
+  "roi": {
+    "nav": {
+      "roiCalculator": "Calculadora de ROI",
+      "howItWorks": "Cómo Funciona",
+      "meetEngineers": "Conozca a los Ingenieros",
+      "caseStudies": "Casos de Éxito",
+      "overcomeFears": "Supere sus Dudas",
+      "pricing": "Precios",
+      "faq": "Preguntas Frecuentes"
+    },
+    "calculator": {
+      "heading": "Calcule su ROI",
+      "labels": {
+        "salary": "Salario Anual Actual del Estimador ($)",
+        "benefits": "Beneficios e Impuestos (%)",
+        "overhead": "Oficina y Equipo (Anual, $)",
+        "currentBids": "Ofertas Actuales por Mes",
+        "projectValue": "Valor Promedio del Proyecto ($)",
+        "winRate": "Tasa de Éxito Estimada (%)"
+      },
+      "results": {
+        "title": "Su Análisis de ROI Personalizado",
+        "currentCost": "Costo Anual Actual (Interno):",
+        "smartCost": "Costo Anual SmartSourcing:",
+        "annualSavings": "Ahorro Anual:",
+        "newBidCapacity": "Nueva Capacidad Mensual de Ofertas (est.):",
+        "additionalRevenue": "Ingresos Adicionales (Año 1):",
+        "paybackPeriod": "Período de Recuperación del ROI:",
+        "days": "{count} días",
+        "scheduleCta": "Agendar Consulta para Discutir"
+      }
+    },
+    "howItWorks": {
+      "heading": "Nuestro Proceso en 4 Pasos",
+      "steps": [
+        {
+          "title": "Llamada de Evaluación",
+          "content": "Programe una llamada de 15 minutos para hablar de su flujo de trabajo actual, volumen, desafíos y objetivos. Entenderemos sus necesidades específicas y cómo podemos ayudar."
+        },
+        {
+          "title": "Emparejamiento de Candidatos",
+          "content": "En 3-5 días hábiles, le presentamos 2-3 ingenieros civiles previamente evaluados. Cada uno tiene credenciales, experiencia en asfalto y dominio de software."
+        },
+        {
+          "title": "Entrevista y Selección",
+          "content": "Usted entrevista a los candidatos. Elija al ingeniero que mejor encaje con su cultura y necesidades. Transparencia y control total en la selección."
+        },
+        {
+          "title": "Incorporación de 90 Días",
+          "content": "Capacitación y apoyo dedicados. Mes 1: observación y aprendizaje. Mes 2: trabajo colaborativo. Mes 3: trabajo independiente con supervisión."
+        }
+      ],
+      "timeline": {
+        "heading": "Cronograma de Capacitación de 90 Días",
+        "items": [
+          {
+            "marker": "Semana 1-2",
+            "phase": "Incorporación y Acceso:",
+            "description": "Configuración de sistemas, acceso a software, firma de NDA, orientación de la empresa"
+          },
+          {
+            "marker": "Semana 3-4",
+            "phase": "Fase de Observación:",
+            "description": "Interacción diaria con su equipo, aprendizaje de especificaciones, observación del flujo de trabajo"
+          },
+          {
+            "marker": "Semana 5-8",
+            "phase": "Fase Colaborativa:",
+            "description": "Creación conjunta de estimaciones con su gerente, revisiones 2-3 veces por semana, retroalimentación y refinamiento"
+          },
+          {
+            "marker": "Semana 9-12",
+            "phase": "Fase Independiente:",
+            "description": "Trabajo autónomo con supervisión semanal, mayor volumen de ofertas, revisiones de aseguramiento de calidad"
+          },
+          {
+            "marker": "Semana 13+",
+            "phase": "Productividad Plena:",
+            "description": "Entrega de 25-35 ofertas de calidad por mes, revisiones mensuales de desempeño, mejora continua"
+          }
+        ]
+      }
+    },
+    "meetEngineers": {
+      "heading": "Conozca a Ingenieros Civiles Licenciados",
+      "subheading": "Todos los ingenieros son civiles licenciados con títulos de 5 años, certificación del Acuerdo de Washington y capacitación especializada en asfalto.",
+      "profileLabel": "Perfil de Ingeniero {number}",
+      "engineers": [
+        {
+          "name": "Raul Santos",
+          "role": "Ingeniero Civil Licenciado | Especialista en PlanSwift",
+          "credentials": [
+            "Título de Ingeniería de 5 años (UP Diliman)",
+            "Ingeniero Civil Licenciado (PRC)",
+            "8+ años de experiencia en asfalto",
+            "Certificado en PlanSwift y Bluebeam",
+            "Inglés fluido - acento neutro"
+          ]
+        },
+        {
+          "name": "Maria Gonzales",
+          "role": "Ingeniera Civil Licenciada | Líder de Estimación",
+          "credentials": [
+            "Título de Ingeniería de 5 años (Mapúa)",
+            "Ingeniera Civil Licenciada (PRC)",
+            "6+ años en asfalto comercial",
+            "Dominio de HCSS HeavyBid",
+            "Comunicación avanzada en inglés"
+          ]
+        },
+        {
+          "name": "Carlos De Leon",
+          "role": "Ingeniero Civil Licenciado | Aseguramiento de Calidad",
+          "credentials": [
+            "Título de Ingeniería de 5 años (DLSU)",
+            "Ingeniero Civil Licenciado (PRC)",
+            "10+ años en infraestructura",
+            "Experto en AutoCAD y Revit",
+            "Conocimiento de especificaciones DOT"
+          ]
+        }
+      ],
+      "whyExcel": {
+        "heading": "Por Qué Destacan Nuestros Ingenieros",
+        "items": [
+          {
+            "title": "Acuerdo de Washington™",
+            "desc": "Reconocimiento internacional de credenciales - equivalente a títulos de ingeniería en EE. UU."
+          },
+          {
+            "title": "Profesionales Licenciados",
+            "desc": "Aprobaron el riguroso examen PRC (30-35% de aprobación = rigor del PE en EE. UU.)"
+          },
+          {
+            "title": "Dominio del Inglés",
+            "desc": "Filipinas ocupa el puesto 20 a nivel mundial - por encima de India, China y la mayor parte de Asia"
+          },
+          {
+            "title": "Ética de Trabajo",
+            "desc": "94% de retención - compromiso con la excelencia y las relaciones con el cliente"
+          }
+        ]
+      }
+    },
+    "overcomeFears": {
+      "heading": "Entendemos sus Preocupaciones",
+      "subheading": "Estas son las principales objeciones que escuchamos de los contratistas, con respuestas honestas respaldadas por datos.",
+      "answerHeader": "✓ Nuestra Respuesta",
+      "items": [
+        {
+          "icon": "😟",
+          "question": "¿Cómo sé que realmente están trabajando si no puedo verlos?",
+          "intro": "Usted gestiona por resultados, no por vigilancia. Asigna una oferta → Establece plazo → Revisa la estimación → Da retroalimentación → Rastrea precisión y tasa de éxito. Lo remoto es igual, excepto que tiene MÁS visibilidad:",
+          "bullets": [
+            "Revisiones diarias (15 minutos)",
+            "Métricas de desempeño semanales",
+            "Compartir pantalla para capacitación",
+            "Software de seguimiento de tiempo disponible",
+            "Comunicación por Slack/Teams"
+          ],
+          "closingLabel": "Realidad:",
+          "closing": "Su estimador remoto QUIERE que esto funcione. Paga 4-6 veces lo que ganaría localmente, brinda estabilidad a su familia y ofrece crecimiento profesional. Si no rinde, pierde una oportunidad que cambia su vida."
+        },
+        {
+          "icon": "🛡️",
+          "question": "¿Qué pasa con la seguridad de datos? ¿Puedo confiarles mis ofertas?",
+          "intro": "La seguridad es nuestra máxima prioridad:",
+          "bullets": [
+            "Todos los ingenieros firman NDA y acuerdos de confidencialidad",
+            "VPN obligatoria para todo el trabajo",
+            "Sin descargas ni transferencias de archivos sin autorización",
+            "Acceso restringido solo a los sistemas necesarios",
+            "Todo el trabajo rastreado y auditable",
+            "Nosotros gestionamos empleo y responsabilidad"
+          ],
+          "closingLabel": "Estándar de la Industria:",
+          "closing": "Más de 20 años de experiencia en BPO (Business Process Outsourcing) en Filipinas sin brechas de seguridad importantes en las principales firmas. Sus datos de estimación están más seguros con sistemas que con hojas de cálculo individuales."
+        },
+        {
+          "icon": "💬",
+          "question": "¿Será un problema el idioma o la comunicación?",
+          "introBold": "Filipinas ocupa el puesto 20 a nivel mundial en dominio del inglés, POR ENCIMA de India, China y la mayor parte de Asia.",
+          "bullets": [
+            "Todos nuestros ingenieros hablan inglés fluido con acento americano neutro",
+            "Educación de ingeniería en inglés",
+            "Comunicación profesional en todos los canales",
+            "Videollamadas, teléfono, correo y chat sin problema",
+            "Cultura de más de 20 años de servicio al cliente en EE. UU."
+          ],
+          "closingLabel": "Nuestra Experiencia:",
+          "closing": "94% de retención y cero problemas de comunicación con clientes actuales. Los filipinos conocen las normas empresariales, modismos y estilos de trabajo estadounidenses."
+        },
+        {
+          "icon": "❓",
+          "question": "¿Qué pasa si no funcionan? ¿Puedo despedirlos?",
+          "introBold": "Sí. Ofrecemos garantía de reemplazo de 90 días.",
+          "paragraph": "Si su estimador no cumple expectativas en los primeros 90 días, lo reemplazamos sin costo en 2 semanas. Usted no arriesga nada.",
+          "closingLabel": "Comprobación de Realidad:",
+          "closing": "En más de 18 colocaciones con contratistas de asfalto, hemos tenido CERO solicitudes de reemplazo. Los contratistas no quieren reemplazarlos—quieren agregar más."
+        },
+        {
+          "icon": "🔄",
+          "question": "Mi temporada de asfalto es solo 8-9 meses. ¿Qué pasa en la temporada baja?",
+          "intro": "Incluimos capacitación en temporada baja sin costo adicional para usted:",
+          "bullets": [
+            "1 dic - 15 feb: SmartSourcing proporciona capacitación",
+            "Recopilamos retroalimentación sobre brechas de habilidades y necesidades",
+            "Clases sobre nuevas especificaciones, software y certificaciones",
+            "Usted solo paga durante la temporada de estimación",
+            "El ingeniero regresa listo para la próxima temporada"
+          ],
+          "closingLabel": "Beneficio:",
+          "closing": "Su estimador mejora en temporada baja, regresa más preparado y usted no pierde tiempo de capacitación en primavera. Está integrado en nuestro modelo."
+        },
+        {
+          "icon": "🎓",
+          "question": "¿Cuánto tiempo necesitaré dedicar a capacitarlos?",
+          "timeBlocks": [
+            { "label": "Mes 1:", "text": "3-4 horas/semana (interacciones diarias, enseñar especificaciones, responder preguntas)" },
+            { "label": "Mes 2:", "text": "1-2 horas/semana (trabajo colaborativo, sesiones de retroalimentación)" },
+            { "label": "Mes 3+:", "text": "30-60 minutos/mes (revisiones continuas, coaching de mejora)" }
+          ],
+          "closingLabel": "Comparación:",
+          "closing": "Contratar un estimador local requiere la misma inversión de tiempo MÁS meses de reclutamiento e incorporación. Solo está consolidando la capacitación."
+        },
+        {
+          "icon": "💼",
+          "question": "¿Mi estimador actual se sentirá reemplazado o amenazado?",
+          "intro": "No si lo plantea correctamente. Esto es lo que ocurre en la práctica:",
+          "bullets": [
+            "Mes 1: Su estimador actual se convierte en capacitador y auditor—rol valorado",
+            "Mes 2: Trabajan juntos, construyendo relación y confianza",
+            "Mes 3+: El estimador remoto maneja volumen; su persona maneja estrategia y relaciones con clientes"
+          ],
+          "closingLabel": "Alineación de Incentivos:",
+          "closing": "Su equipo local se beneficia del mayor beneficio de la empresa. A fin de año, su fondo de bonos es mayor porque el estimador remoto generó ingresos. Muchos contratistas agregan 25% a los bonos por esto."
+        },
+        {
+          "icon": "🌍",
+          "question": "¿Por qué Filipinas? ¿No hay otras opciones?",
+          "introBold": "Filipinas es la MEJOR opción para estimación de construcción. He aquí por qué:",
+          "bullets": [
+            "Ingenieros Civiles Licenciados: títulos de 5 años, certificación Acuerdo de Washington (2023), exámenes PRC rigurosos",
+            "Dominio del Inglés: puesto 20 global (supera a India, China y la mayor parte de Asia)",
+            "Encaje Cultural: más de 20 años de outsourcing de procesos de negocio en EE. UU. = normas laborales americanas, enfoque al cliente",
+            "Costos: 60-75% de ahorro vs. contratación en EE. UU. sin comprometer calidad",
+            "Ética de Trabajo: 94% de retención demuestra compromiso y lealtad"
+          ],
+          "closingLabel": "Comparación:",
+          "closing": "India destaca en TI/software puro. Filipinas destaca en roles con mucha comunicación y relación con el cliente, como la estimación de construcción."
+        },
+        {
+          "icon": "💰",
+          "question": "¿Qué pasa si sus costos aumentan? ¿Cuál es el modelo de precios?",
+          "introBold": "Precios transparentes y predecibles:",
+          "bullets": [
+            "$40K-55K anuales (todo incluido, sin cargos ocultos)",
+            "$3,000 de tarifa única de configuración",
+            "Revisiones anuales con ajuste de precios (típicamente 3-5% alineado con inflación)",
+            "Garantía de reemplazo incluida sin costo",
+            "Capacitación en temporada baja incluida sin costo"
+          ],
+          "closingLabel": "Vs. Contratación Local:",
+          "closing": "$108K-142K con beneficios variables, gastos generales, capacitación y rotación. Nuestro modelo es 60% más económico y MÁS predecible."
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Precios Simples y Transparentes",
+      "subheading": "Elija el estimador remoto adecuado para su negocio de construcción. Todos los planes incluyen capacitación dedicada, aseguramiento de calidad y apoyo estratégico.",
+      "mostPopular": "Más Popular",
+      "annually": "Anualmente",
+      "perMonth": "Por mes",
+      "plans": [
+        {
+          "name": "Nivel Inicial",
+          "experience": "1–4 años de experiencia",
+          "period": "Anualmente",
+          "billingInfo": "Facturación quincenal",
+          "cta": "Comenzar",
+          "features": [
+            "Título de ingeniero civil con reconocimiento de credenciales en EE. UU.",
+            "Conocimiento fundamental de estimación de asfalto",
+            "Capacitador dedicado (su estimador)",
+            "Incorporación estructurada 30-60-90",
+            "Auditorías de calidad y retroalimentación",
+            "Capacitación en temporada baja incluida"
+          ]
+        },
+        {
+          "name": "Con Experiencia",
+          "experience": "5–10 años de experiencia",
+          "period": "Anualmente",
+          "billingInfo": "Facturación quincenal",
+          "cta": "Elegir Con Experiencia",
+          "features": [
+            "Estimación avanzada de proyectos de asfalto",
+            "Estrategias y precios complejos de ofertas",
+            "Productividad inmediata (70-80% desde el día 1)",
+            "Modelo de auditor estratégico",
+            "Mínimo tiempo de adaptación",
+            "Capacitación en temporada baja incluida"
+          ]
+        },
+        {
+          "name": "Experiencia en EE. UU.",
+          "experience": "2+ años de asfalto en EE. UU. + 5–10 años de ingeniería civil",
+          "period": "Por mes",
+          "billingInfo": "Talento de primer nivel",
+          "cta": "Seleccionar Experto",
+          "features": [
+            "Gestión experta de proyectos de asfalto",
+            "Listo para evaluación de obra e interacción con clientes",
+            "90%+ de productividad desde el primer día",
+            "Rol de socio estratégico en licitaciones",
+            "Contribuciones a mejora de procesos",
+            "Capacitación en temporada baja incluida"
+          ]
+        }
+      ],
+      "setup": {
+        "heading": "Tarifa Única de Configuración",
+        "description": "Todo lo que necesita para lanzar con éxito a su estimador remoto—incluido una sola vez.",
+        "items": [
+          {
+            "title": "Equipo y Monitores",
+            "desc": "Laptop, monitores, periféricos y configuración ergonómica para trabajo remoto"
+          },
+          {
+            "title": "Licencias de Software",
+            "desc": "PlanSwift, Bluebeam, herramientas de gestión de proyectos y todo el software de estimación requerido"
+          },
+          {
+            "title": "Más de 15 Evaluaciones Criteria",
+            "desc": "Evaluación integral de habilidades técnicas, conocimiento de asfalto y encaje cultural"
+          },
+          {
+            "title": "Soporte Técnico",
+            "desc": "Configuración inicial, sistemas, capacitación en software y soporte TI continuo"
+          },
+          {
+            "title": "Bono Obligatorio a los 13 Meses",
+            "desc": "Bono único de desempeño al cumplir 1 año para incentivar calidad y retención"
+          },
+          {
+            "title": "Seguro de Salud",
+            "desc": "Cobertura de salud integral que apoya el bienestar y la retención del empleado"
+          },
+          {
+            "title": "Tarifas de Configuración Administrativa",
+            "desc": "Preparación de contratos, nómina, procesamiento de NDA y documentación de cumplimiento"
+          }
+        ],
+        "comparison": {
+          "label": "Por qué nuestros precios son mejores:",
+          "text": "Los estimadores internos tradicionales cuestan $108K–$142K anuales, más gastos generales, reclutamiento, incorporación prolongada y beneficios variables. Nuestros modelos incluyen configuración, capacitación, supervisión de calidad y apoyo estratégico. Obtiene 60% de ahorro con 2–3x de capacidad de ofertas y precios mensuales o anuales predecibles.",
+          "savings": "60% de ahorro",
+          "bidCapacity": "2–3x capacidad de ofertas",
+          "predictable": "precios mensuales o anuales predecibles."
+        }
+      },
+      "faq": {
+        "heading": "Preguntas Frecuentes",
+        "items": [
+          {
+            "q": "¿Qué incluye el precio?",
+            "a": "Todos los precios incluyen: ingeniero civil con reconocimiento de credenciales en EE. UU., capacitación dedicada por su estimador, incorporación estructurada 30-60-90, auditorías de calidad y capacitación en temporada baja. La tarifa única de configuración cubre hardware, software, evaluaciones, soporte técnico, seguro de salud y tarifas administrativas."
+          },
+          {
+            "q": "¿Qué tan rápido serán productivos?",
+            "a": "Nivel Inicial: 60–90 días para productividad plena. Con Experiencia: 70–80% de productividad de inmediato. Experto: 90%+ de productividad desde el primer día. Su estimador proporciona capacitación y supervisión estratégica en todo momento."
+          },
+          {
+            "q": "¿Hay plazo de contrato?",
+            "a": "Sí. Recomendamos un compromiso mínimo de 1 año para asegurar ROI e integración exitosa. Si no está satisfecho en los primeros 90 días, reemplazamos a su estimador sin costo—sin excepciones."
+          },
+          {
+            "q": "¿Qué pasa si no funcionan?",
+            "a": "Ofrecemos garantía de reemplazo de 90 días. Si su estimador no cumple expectativas, lo reemplazamos sin costo adicional en 2 semanas. En más de 18 colocaciones con contratistas de asfalto, no hemos tenido solicitudes de reemplazo."
+          },
+          {
+            "q": "¿Trabajan tiempo completo?",
+            "a": "Sí. Su estimador remoto es miembro del equipo a tiempo completo asignado exclusivamente a su empresa. Trabaja en su horario comercial y está disponible para capacitación, auditorías y aporte estratégico desde el primer día."
+          },
+          {
+            "q": "¿Puedo agregar más estimadores después?",
+            "a": "Por supuesto. Muchos contratistas comienzan con uno y escalan a 2–3 estimadores a medida que crece el volumen de ofertas. Cada uno agrega capacidad incremental mientras su personal existente gestiona calidad y estrategia."
+          }
+        ]
+      }
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "question": "¿Qué calificaciones tienen sus ingenieros?",
+          "answer": "Todos son ingenieros civiles licenciados con títulos de 5 años de las mejores universidades filipinas (UP Diliman, Mapúa, De La Salle, etc.), certificación del Acuerdo de Washington y aprobación del riguroso Examen de Licencia PRC (30-35% de aprobación, equivalente al rigor del PE en EE. UU.). Todos tienen 4-10+ años de experiencia en construcción y capacitación específica en estimación de asfalto antes de la colocación."
+        },
+        {
+          "question": "¿Cuánto dura el proceso de incorporación?",
+          "answer": "La incorporación es de 90 días con fases estructuradas: Semana 1-2 (configuración de sistemas), Semana 3-4 (fase de observación), Semana 5-8 (trabajo colaborativo), Semana 9-12 (trabajo independiente con supervisión). Al día 90, entregan 25-35 ofertas de calidad al mes con supervisión mínima. Compromiso de tiempo suyo: 3-4 h/semana mes 1, 1-2 h/semana mes 2, 30-60 min/mes después."
+        },
+        {
+          "question": "¿En qué software deben ser competentes?",
+          "answer": "Núcleo: PlanSwift, Bluebeam, AutoCAD, Excel. Avanzado: HCSS HeavyBid, B2W Estimate, Revit. Los capacitamos en SU stack de software durante la incorporación. La mayoría ya domina PlanSwift y Bluebeam; las herramientas especializadas se aprenden en los meses 1-2."
+        },
+        {
+          "question": "¿Pueden trabajar en mi zona horaria?",
+          "answer": "Sí. Filipinas está 12-16 horas adelante de las zonas horarias de EE. UU. Estructuramos el trabajo para que coincidan con el horario comercial de EE. UU. (típicamente 8 AM-5 PM hora de Montaña es de madrugada en Manila, pero trabajan tardes en Filipinas). Correo, archivos y comunicación asíncrona funcionan 24/7; videollamadas en ventanas de coincidencia."
+        },
+        {
+          "question": "¿Qué pasa si no estoy satisfecho?",
+          "answer": "Garantía de reemplazo de 90 días. Si su estimador rinde por debajo de lo esperado en los primeros 90 días, lo reemplazamos sin costo en 2 semanas. Solo paga por lo que usa. No se requieren contratos a largo plazo; cualquiera puede terminar con 30 días de aviso después del día 90."
+        },
+        {
+          "question": "¿Cómo manejan la temporada baja (meses de invierno)?",
+          "answer": "La capacitación en temporada baja está incluida sin costo adicional. Del 1 dic al 15 feb, capacitamos en nuevas especificaciones, actualizaciones de software, certificaciones y desarrollo de habilidades. No paga en temporada baja; el ingeniero capacita con nosotros. Regresa listo para la próxima temporada, a menudo con habilidades mejoradas."
+        },
+        {
+          "question": "¿Puedo agregar más estimadores después?",
+          "answer": "Por supuesto. Muchos contratistas comienzan con uno y agregan un segundo o tercero después de 6-12 meses. Las colocaciones con varios ingenieros reciben 10-15% de descuento en ingenieros subsecuentes. La incorporación es más rápida la segunda vez porque su equipo ya entiende el proceso."
+        },
+        {
+          "question": "¿Qué hay de la seguridad y confidencialidad de datos?",
+          "answer": "Todos firman NDA y acuerdos de confidencialidad detallados. VPN obligatoria. Sin descargas sin autorización. Acceso restringido solo a sistemas necesarios. Gestionamos empleo y responsabilidad. Las ofertas y datos del proyecto nunca salen de sus sistemas. Las prácticas de seguridad superan lo que la mayoría de contratistas pequeños tienen internamente."
+        },
+        {
+          "question": "¿Qué pasa si se van o se enferman?",
+          "answer": "Poco probable. Nuestra tasa de retención es del 94% (muy por encima del promedio). Si un ingeniero se va inesperadamente fuera de la ventana de 90 días, ofrecemos 4 semanas de transición y comenzamos la búsqueda de reemplazo. Se puede organizar cobertura de respaldo. Los protocolos de emergencia están documentados en su acuerdo."
+        },
+        {
+          "question": "¿Gestionan contratación, nómina y empleo?",
+          "answer": "Sí. Smart Sourcing USA gestiona reclutamiento, evaluación, contratación, nómina, beneficios, impuestos y responsabilidad legal de empleo. Usted nos paga una tarifa mensual; nosotros nos encargamos del resto. Evita toda la carga de RR. HH./cumplimiento y la complejidad del empleo internacional."
+        },
+        {
+          "question": "¿Cuál es el cronograma típico de ROI?",
+          "answer": "La mayoría de los contratistas ven ROI positivo en 60-90 días. Ahorros de $60K-90K anuales, combinados con mayores ingresos por 2-3x de capacidad de ofertas, suelen recuperar la inversión de configuración en 2-3 meses. Use nuestra calculadora de ROI para ver sus números específicos."
+        },
+        {
+          "question": "¿Podemos empezar a tiempo parcial o en prueba?",
+          "answer": "Recomendamos compromiso a tiempo completo para resultados óptimos. Sin embargo, la garantía de reemplazo de 90 días efectivamente hace de esto un período de prueba—si no funciona, obtiene un reemplazo sin costo. La mayoría confirma valor en 30 días y se compromete a largo plazo."
+        },
+        {
+          "question": "¿Cómo seleccionan candidatos para mi empresa?",
+          "answer": "No contratamos desde bolsas de empleo. Reclutamos directamente de las mejores universidades filipinas y firmas de ingeniería establecidas. Proceso de evaluación en 4 etapas: Revisión de CV → Evaluación técnica → Entrevistas en video → Referencias. Solo 1 de cada 15 candidatos llega a su presentación. Usted entrevista 2-3 finalistas y elige el mejor encaje."
+        }
+      ]
+    },
+    "caseStudies": {
+      "heading": "Resultados Reales de Contratistas de Asfalto",
+      "challenge": "Desafío",
+      "solution": "Solución",
+      "results": "Resultados (6 Meses)",
+      "clientQuote": "Cita del Cliente",
+      "studies": [
+        {
+          "company": "Caso de Estudio 1: Contratista de Asfalto Residencial",
+          "location": "Utah | $5M de Ingresos Anuales",
+          "challenge": "El propietario estimaba proyectos de noche después de dirigir cuadrillas de día. Limitado a 10-12 ofertas por mes. Rechazaba $200K-300K en oportunidades mensuales. No podía justificar contratar un estimador local a más de $120K.",
+          "solution": "Emparejado con ingeniero civil licenciado de Filipinas. Título de ingeniería de 5 años, 4 años de experiencia en asfalto, dominio de PlanSwift y Bluebeam. Incorporación de 90 días con programa de capacitación estructurado.",
+          "metrics": [
+            { "number": "35", "label": "Ofertas/Mes" },
+            { "number": "28%", "label": "Tasa de Éxito" },
+            { "number": "$7.2M", "label": "Ingresos Proyectados" },
+            { "number": "$94K", "label": "Ahorro Anual" }
+          ],
+          "quote": "\"Era escéptico sobre estimadores remotos. Pensé que significaba 'offshore y poco confiable'. Pero [Nombre del Ingeniero] está en cada llamada, conoce nuestras especificaciones y detecta cosas que yo pasaba por alto. La mejor decisión de negocio del año. Recuperé mis noches.\""
+        },
+        {
+          "company": "Caso de Estudio 2: Empresa de Asfalto Comercial",
+          "location": "Colorado | $8M de Ingresos Anuales",
+          "challenge": "El gerente de operaciones dividía tiempo entre estimación y supervisión de proyectos. Tiempos de respuesta inconsistentes (3-5 días). Proyectos comerciales complejos requerían detalle técnico senior. Necesitaban más capacidad sin expandir nómina significativamente.",
+          "solution": "Contrataron ingeniero civil licenciado con experiencia en construcción comercial. Incorporación estructurada de 90 días con revisiones semanales. El gerente de operaciones pasó a revisión de calidad y relaciones con clientes.",
+          "metrics": [
+            { "number": "2x", "label": "Capacidad de Ofertas" },
+            { "number": "22%", "label": "Mejora de Precisión" },
+            { "number": "$12M", "label": "Ingresos (Fin de Año)" },
+            { "number": "48hrs", "label": "Tiempo de Respuesta" }
+          ],
+          "quote": "\"El proceso de capacitación fue fluido. La comunicación es impecable. Lo que más me impresionó es que hacen excelentes preguntas sobre nuestro proceso y realmente mejoran nuestro flujo de trabajo. Ha sido una alianza, no solo un servicio.\""
+        },
+        {
+          "company": "Caso de Estudio 3: Contratista en Etapa de Crecimiento",
+          "location": "Arizona | $4M → $8M de Ingresos",
+          "challenge": "La trayectoria de crecimiento rápido requería escalar capacidad de estimación sin aumentar gastos generales proporcionalmente. El estimador actual saturado. No podían contratar lo suficientemente rápido para la demanda del mercado.",
+          "solution": "Agregaron dos estimadores remotos en paralelo: uno residencial, uno comercial. La incorporación escalonada permitió transferencia de conocimiento y desarrollo del equipo.",
+          "metrics": [
+            { "number": "100%", "label": "Crecimiento de Ingresos" },
+            { "number": "3x", "label": "Volumen de Ofertas" },
+            { "number": "$4.5M", "label": "Ingresos Adicionales" },
+            { "number": "$140K", "label": "Ahorro Combinado" }
+          ],
+          "quote": "\"Escalar con estimadores remotos nos permitió crecer ingresos sin los costos de infraestructura de contratar localmente. Ahorramos más de $140K mientras más que duplicamos la capacidad de ofertas. Planeamos agregar un tercer estimador el próximo año.\""
+        }
+      ]
+    }
+  }
+}
