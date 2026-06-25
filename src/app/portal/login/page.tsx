@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import PasswordField from "@/components/PasswordField";
 
@@ -90,6 +91,15 @@ export default function PortalLoginPage() {
             {loading ? "Signing in…" : "Sign in"}
           </button>
         </form>
+
+        <div className="mt-4 text-center">
+          <Link
+            href="/portal/forgot"
+            className="text-sm font-medium text-emerald-700 hover:text-emerald-800"
+          >
+            Forgot password?
+          </Link>
+        </div>
       </div>
     </div>
   );

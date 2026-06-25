@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import PasswordField from "@/components/PasswordField";
+import { PASSWORD_RULES_TEXT, validatePassword } from "@/lib/password";
 
 type Props = {
   name: string;
@@ -33,6 +34,11 @@ export default function OnboardingForm({ name, needsPassword, bankAlreadySet }: 
   async function submitPassword(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
+    const pwError = validatePassword(newPassword);
+    if (pwError) {
+      setError(pwError);
+      return;
+    }
     if (newPassword !== confirmPassword) {
       setError("Passwords do not match.");
       return;
@@ -103,10 +109,9 @@ export default function OnboardingForm({ name, needsPassword, bankAlreadySet }: 
         {step === "password" && (
           <form onSubmit={submitPassword} className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                New password <span className="text-gray-400">(min 8 characters)</span>
-              </label>
+              <label className="block text-sm font-medium text-gray-700 mb-1">New password</label>
               <PasswordField value={newPassword} onChange={setNewPassword} required minLength={8} autoComplete="new-password" />
+              <p className="mt-1 text-xs text-gray-400">{PASSWORD_RULES_TEXT}</p>
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Confirm password</label>

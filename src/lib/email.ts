@@ -1,5 +1,14 @@
 import nodemailer from "nodemailer";
 
+// Builds a friendly "From" header like: Smart Sourcing USA <payroll@domain>.
+// The display name comes from EMAIL_FROM_NAME (defaults to the company name).
+function senderFrom(): string | undefined {
+  const address = process.env.CONTACT_EMAIL_FROM ?? process.env.SMTP_USER;
+  if (!address) return undefined;
+  const name = process.env.EMAIL_FROM_NAME ?? "Smart Sourcing USA";
+  return `"${name}" <${address}>`;
+}
+
 type SendContactEmailParams = {
   subject: string;
   html: string;
@@ -28,7 +37,7 @@ export async function sendContactEmail({ subject, html, text, replyTo }: SendCon
   });
 
   await transporter.sendMail({
-    from: from ?? user,
+    from: senderFrom() ?? from ?? user,
     to,
     replyTo,
     subject,
@@ -62,7 +71,6 @@ export async function sendNotificationEmail({
   const port = Number(process.env.SMTP_PORT ?? "587");
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASSWORD;
-  const from = process.env.CONTACT_EMAIL_FROM ?? user;
 
   if (!user || !pass) {
     console.warn(
@@ -80,7 +88,7 @@ export async function sendNotificationEmail({
       auth: { user, pass },
     });
     await transporter.sendMail({
-      from: from ?? user,
+      from: senderFrom() ?? user,
       to: recipients.join(", "),
       subject,
       text,

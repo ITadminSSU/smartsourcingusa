@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { PASSWORD_RULES_TEXT, validatePassword } from "@/lib/password";
 
 type Account = {
   username: string;
@@ -92,8 +93,9 @@ export default function ProfileForm({
   async function savePassword(e: React.FormEvent) {
     e.preventDefault();
     setPwMsg(null);
-    if (newPassword.length < 8) {
-      setPwMsg({ kind: "error", text: "New password must be at least 8 characters." });
+    const pwError = validatePassword(newPassword);
+    if (pwError) {
+      setPwMsg({ kind: "error", text: pwError });
       return;
     }
     if (newPassword !== confirmPassword) {
@@ -241,7 +243,7 @@ export default function ProfileForm({
               value={newPassword}
               onChange={(e) => setNewPassword(e.target.value)}
             />
-            <p className="mt-1 text-xs text-gray-400">At least 8 characters.</p>
+            <p className="mt-1 text-xs text-gray-400">{PASSWORD_RULES_TEXT}</p>
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Confirm new password *</label>

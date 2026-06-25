@@ -10,6 +10,11 @@ import {
   type PortalRole,
   type PortalSession,
 } from "./portal-session";
+import {
+  LOCK_MINUTES,
+  MAX_FAILED_ATTEMPTS,
+  type LoginOutcome,
+} from "./lockout";
 
 export type PortalUser = {
   id: number;
@@ -25,7 +30,13 @@ export type PortalUser = {
   created_at: string;
 };
 
-type PortalUserRow = PortalUser & { password_hash: string };
+type PortalUserRow = PortalUser & {
+  password_hash: string;
+  failed_attempts: number;
+  locked_until: string | null;
+};
+
+const LOGIN_COLS = `${"id, username, first_name, middle_name, last_name, email, role, invoice_seq, must_change_password, active, created_at"}, password_hash, failed_attempts, locked_until`;
 
 const USER_COLS =
   "id, username, first_name, middle_name, last_name, email, role, invoice_seq, must_change_password, active, created_at";
@@ -88,7 +99,7 @@ export async function findPortalUserByEmail(
   email: string
 ): Promise<PortalUserRow | null> {
   const rows = await query<PortalUserRow>(
-    `SELECT ${USER_COLS}, password_hash FROM portal_users WHERE email = :email LIMIT 1`,
+    `SELECT ${LOGIN_COLS} FROM portal_users WHERE email = :email LIMIT 1`,
     { email: email.trim().toLowerCase() }
   );
   const u = rows[0];
@@ -100,7 +111,7 @@ export async function findPortalUserByUsername(
   username: string
 ): Promise<PortalUserRow | null> {
   const rows = await query<PortalUserRow>(
-    `SELECT ${USER_COLS}, password_hash FROM portal_users WHERE username = :username LIMIT 1`,
+    `SELECT ${LOGIN_COLS} FROM portal_users WHERE username = :username LIMIT 1`,
     { username: normalizeUsername(username) }
   );
   const u = rows[0];
@@ -193,7 +204,7 @@ export async function changePortalPassword(
 ): Promise<void> {
   const password_hash = await bcrypt.hash(newPassword, 12);
   await query(
-    "UPDATE portal_users SET password_hash = :h, must_change_password = 0 WHERE id = :id",
+    "UPDATE portal_users SET password_hash = :h, must_change_password = 0, failed_attempts = 0, locked_until = NULL WHERE id = :id",
     { h: password_hash, id: userId }
   );
 }
@@ -205,12 +216,14 @@ export async function resetPortalPassword(userId: number): Promise<string> {
   const tempPassword = generateTempPassword();
   const password_hash = await bcrypt.hash(tempPassword, 12);
   await query(
-    "UPDATE portal_users SET password_hash = :h, must_change_password = 1 WHERE id = :id",
+    "UPDATE portal_users SET password_hash = :h, must_change_password = 1, failed_attempts = 0, locked_until = NULL WHERE id = :id",
     { h: password_hash, id: userId }
   );
   return tempPassword;
 }
 
+// Plain credential check (no lockout side effects). Used for re-auth such as
+// confirming the current password before a change.
 export async function verifyPortalCredentials(
   username: string,
   password: string
@@ -226,6 +239,67 @@ export async function verifyPortalCredentials(
     name: fullName(u),
     role: u.role,
     mustChange: Boolean(u.must_change_password),
+  };
+}
+
+async function registerFailedPortalLogin(id: number): Promise<void> {
+  await query(
+    `UPDATE portal_users
+       SET failed_attempts = failed_attempts + 1,
+           locked_until = IF(failed_attempts + 1 >= :max,
+                             DATE_ADD(NOW(), INTERVAL :mins MINUTE),
+                             locked_until)
+     WHERE id = :id`,
+    { id, max: MAX_FAILED_ATTEMPTS, mins: LOCK_MINUTES }
+  );
+}
+
+async function clearFailedPortalLogin(id: number): Promise<void> {
+  await query(
+    "UPDATE portal_users SET failed_attempts = 0, locked_until = NULL WHERE id = :id",
+    { id }
+  );
+}
+
+// Lockout-aware portal login. Returns "locked", "invalid", or "ok".
+export async function attemptPortalLogin(
+  username: string,
+  password: string
+): Promise<LoginOutcome<PortalSession>> {
+  const u = await findPortalUserByUsername(username);
+  if (!u || !u.active) return { status: "invalid" };
+
+  if (u.locked_until) {
+    const until = new Date(u.locked_until);
+    if (until.getTime() > Date.now()) return { status: "locked", until };
+  }
+
+  const ok = await bcrypt.compare(password, u.password_hash);
+  if (!ok) {
+    await registerFailedPortalLogin(u.id);
+    const rows = await query<{ locked_until: string | null }>(
+      "SELECT locked_until FROM portal_users WHERE id = :id LIMIT 1",
+      { id: u.id }
+    );
+    const lu = rows[0]?.locked_until;
+    if (lu) {
+      const until = new Date(lu);
+      if (until.getTime() > Date.now()) return { status: "locked", until };
+    }
+    return { status: "invalid" };
+  }
+
+  await clearFailedPortalLogin(u.id);
+  return {
+    status: "ok",
+    session: {
+      uid: u.id,
+      username: u.username,
+      email: u.email,
+      name: fullName(u),
+      role: u.role,
+      mustChange: Boolean(u.must_change_password),
+    },
   };
 }
 

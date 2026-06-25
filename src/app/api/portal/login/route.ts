@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { isDbConfigured } from "@/lib/db";
 import { logActivity } from "@/lib/auth";
-import { startPortalSession, verifyPortalCredentials } from "@/lib/portal-auth";
+import { attemptPortalLogin, startPortalSession } from "@/lib/portal-auth";
+import { lockMessage } from "@/lib/lockout";
 
 export const runtime = "nodejs";
 
@@ -20,11 +21,15 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Username and password are required." }, { status: 400 });
     }
 
-    const session = await verifyPortalCredentials(username, password);
-    if (!session) {
+    const result = await attemptPortalLogin(username, password);
+    if (result.status === "locked") {
+      return NextResponse.json({ error: lockMessage(result.until) }, { status: 429 });
+    }
+    if (result.status !== "ok") {
       return NextResponse.json({ error: "Invalid username or password." }, { status: 401 });
     }
 
+    const session = result.session;
     await startPortalSession(session);
     await logActivity(session, "portal_login", "Signed in to the staff portal");
     return NextResponse.json({ ok: true, mustChange: session.mustChange });

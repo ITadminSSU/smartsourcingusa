@@ -8,6 +8,11 @@ import {
   type SessionPayload,
   type UserRole,
 } from "./session";
+import {
+  LOCK_MINUTES,
+  MAX_FAILED_ATTEMPTS,
+  type LoginOutcome,
+} from "./lockout";
 
 export type AdminUser = {
   id: number;
@@ -17,7 +22,11 @@ export type AdminUser = {
   created_at: string;
 };
 
-type UserRow = AdminUser & { password_hash: string };
+type UserRow = AdminUser & {
+  password_hash: string;
+  failed_attempts: number;
+  locked_until: string | null;
+};
 
 export type ActivityEntry = {
   id: number;
@@ -48,7 +57,7 @@ export async function listUsers(): Promise<AdminUser[]> {
 
 export async function findUserByEmail(email: string): Promise<UserRow | null> {
   const rows = await query<UserRow>(
-    "SELECT id, name, email, role, password_hash, created_at FROM admin_users WHERE email = :email LIMIT 1",
+    "SELECT id, name, email, role, password_hash, failed_attempts, locked_until, created_at FROM admin_users WHERE email = :email LIMIT 1",
     { email: email.trim().toLowerCase() }
   );
   const user = rows[0];
@@ -95,6 +104,8 @@ export async function getUserById(id: number): Promise<AdminUser | null> {
   return { ...user, role: normalizeRole(user.role) };
 }
 
+// Plain credential check (no lockout side effects). Used for re-auth such as
+// confirming the current password before a change.
 export async function verifyCredentials(
   email: string,
   password: string
@@ -104,6 +115,79 @@ export async function verifyCredentials(
   const ok = await bcrypt.compare(password, user.password_hash);
   if (!ok) return null;
   return { uid: user.id, email: user.email, name: user.name, role: user.role };
+}
+
+async function registerFailedAdminLogin(id: number): Promise<void> {
+  await query(
+    `UPDATE admin_users
+       SET failed_attempts = failed_attempts + 1,
+           locked_until = IF(failed_attempts + 1 >= :max,
+                             DATE_ADD(NOW(), INTERVAL :mins MINUTE),
+                             locked_until)
+     WHERE id = :id`,
+    { id, max: MAX_FAILED_ATTEMPTS, mins: LOCK_MINUTES }
+  );
+}
+
+async function clearFailedAdminLogin(id: number): Promise<void> {
+  await query(
+    "UPDATE admin_users SET failed_attempts = 0, locked_until = NULL WHERE id = :id",
+    { id }
+  );
+}
+
+// Lockout-aware login. Returns "locked" with the unlock time, "invalid" for
+// wrong email/password, or "ok" with the session payload.
+export async function attemptAdminLogin(
+  email: string,
+  password: string
+): Promise<LoginOutcome<SessionPayload>> {
+  const user = await findUserByEmail(email);
+  if (!user) return { status: "invalid" };
+
+  if (user.locked_until) {
+    const until = new Date(user.locked_until);
+    if (until.getTime() > Date.now()) return { status: "locked", until };
+  }
+
+  const ok = await bcrypt.compare(password, user.password_hash);
+  if (!ok) {
+    await registerFailedAdminLogin(user.id);
+    const refreshed = await getLockState("admin_users", user.id);
+    if (refreshed?.locked_until) {
+      const until = new Date(refreshed.locked_until);
+      if (until.getTime() > Date.now()) return { status: "locked", until };
+    }
+    return { status: "invalid" };
+  }
+
+  await clearFailedAdminLogin(user.id);
+  return {
+    status: "ok",
+    session: { uid: user.id, email: user.email, name: user.name, role: user.role },
+  };
+}
+
+async function getLockState(
+  table: "admin_users" | "portal_users",
+  id: number
+): Promise<{ locked_until: string | null } | null> {
+  const rows = await query<{ locked_until: string | null }>(
+    `SELECT locked_until FROM ${table} WHERE id = :id LIMIT 1`,
+    { id }
+  );
+  return rows[0] ?? null;
+}
+
+export async function changeAdminPassword(
+  userId: number,
+  newPassword: string
+): Promise<void> {
+  const password_hash = await bcrypt.hash(newPassword, 12);
+  await query(
+    "UPDATE admin_users SET password_hash = :h, failed_attempts = 0, locked_until = NULL WHERE id = :id",
+    { h: password_hash, id: userId }
+  );
 }
 
 export async function startSession(payload: SessionPayload): Promise<void> {

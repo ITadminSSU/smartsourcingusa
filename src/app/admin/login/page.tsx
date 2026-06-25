@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import PasswordField from "@/components/PasswordField";
 
@@ -88,6 +89,15 @@ export default function AdminLoginPage() {
             {loading ? "Signing in…" : "Sign in"}
           </button>
         </form>
+
+        <div className="mt-4 text-center">
+          <Link
+            href="/admin/forgot"
+            className="text-sm font-medium text-[#2c84c4] hover:text-[#2371a8]"
+          >
+            Forgot password?
+          </Link>
+        </div>
       </div>
     </div>
   );

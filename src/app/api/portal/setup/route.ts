@@ -12,6 +12,7 @@ import {
   verifyPortalCredentials,
 } from "@/lib/portal-auth";
 import { upsertEmployeeProfile } from "@/lib/payroll";
+import { validatePassword } from "@/lib/password";
 
 export const runtime = "nodejs";
 
@@ -51,11 +52,9 @@ export async function POST(request: Request) {
         { status: 400 }
       );
     }
-    if (password.length < 8) {
-      return NextResponse.json(
-        { error: "Password must be at least 8 characters." },
-        { status: 400 }
-      );
+    const pwError = validatePassword(password);
+    if (pwError) {
+      return NextResponse.json({ error: pwError }, { status: 400 });
     }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json({ error: "Please enter a valid email." }, { status: 400 });

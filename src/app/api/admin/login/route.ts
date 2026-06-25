@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
-import { logActivity, startSession, verifyCredentials } from "@/lib/auth";
+import { attemptAdminLogin, logActivity, startSession } from "@/lib/auth";
 import { isDbConfigured } from "@/lib/db";
+import { lockMessage } from "@/lib/lockout";
 
 export const runtime = "nodejs";
 
@@ -19,13 +20,16 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Email and password are required." }, { status: 400 });
     }
 
-    const user = await verifyCredentials(email, password);
-    if (!user) {
+    const result = await attemptAdminLogin(email, password);
+    if (result.status === "locked") {
+      return NextResponse.json({ error: lockMessage(result.until) }, { status: 429 });
+    }
+    if (result.status !== "ok") {
       return NextResponse.json({ error: "Invalid email or password." }, { status: 401 });
     }
 
-    await startSession(user);
-    await logActivity(user, "login", "Signed in");
+    await startSession(result.session);
+    await logActivity(result.session, "login", "Signed in");
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error("Login error:", err);

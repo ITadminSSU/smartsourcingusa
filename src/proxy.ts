@@ -11,7 +11,11 @@ export default async function proxy(request: NextRequest) {
 
   // Admin area is not localized — handle auth here, skip next-intl.
   if (pathname.startsWith("/admin")) {
-    const isPublic = pathname === "/admin/login" || pathname === "/admin/setup";
+    const isPublic =
+      pathname === "/admin/login" ||
+      pathname === "/admin/setup" ||
+      pathname === "/admin/forgot" ||
+      pathname === "/admin/reset";
     if (isPublic) return NextResponse.next();
 
     const session = await verifySession(request.cookies.get(SESSION_COOKIE)?.value);
@@ -23,7 +27,11 @@ export default async function proxy(request: NextRequest) {
 
   // Staff payroll portal — separate login/cookie, also not localized.
   if (pathname.startsWith("/portal")) {
-    const isPublic = pathname === "/portal/login" || pathname === "/portal/setup";
+    const isPublic =
+      pathname === "/portal/login" ||
+      pathname === "/portal/setup" ||
+      pathname === "/portal/forgot" ||
+      pathname === "/portal/reset";
     const session = await verifyPortalSession(
       request.cookies.get(PORTAL_COOKIE)?.value
     );

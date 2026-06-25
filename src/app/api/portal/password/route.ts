@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { logActivity } from "@/lib/auth";
+import { validatePassword } from "@/lib/password";
 import {
   changePortalPassword,
   getCurrentPortalUser,
@@ -19,11 +20,9 @@ export async function POST(request: Request) {
       newPassword?: string;
     };
 
-    if (!newPassword || newPassword.length < 8) {
-      return NextResponse.json(
-        { error: "New password must be at least 8 characters." },
-        { status: 400 }
-      );
+    const pwError = validatePassword(newPassword);
+    if (pwError) {
+      return NextResponse.json({ error: pwError }, { status: 400 });
     }
 
     // Voluntary changes require the current password; first-login (mustChange) does not.
@@ -40,7 +39,7 @@ export async function POST(request: Request) {
       }
     }
 
-    await changePortalPassword(session.uid, newPassword);
+    await changePortalPassword(session.uid, newPassword as string);
     // Re-issue the session so mustChange is cleared.
     await startPortalSession({ ...session, mustChange: false });
     await logActivity(session, "portal_password_change", "Changed their portal password");
