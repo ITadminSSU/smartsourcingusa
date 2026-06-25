@@ -24,14 +24,19 @@ export default async function PortalSetupPage() {
   let userCount = 0;
   try {
     userCount = await countPortalUsers();
-  } catch {
+  } catch (err) {
+    const message =
+      err instanceof Error ? err.message : "Unknown error";
     return (
       <div className="min-h-screen flex items-center justify-center px-4">
         <div className="w-full max-w-md bg-white rounded-2xl shadow-sm border border-gray-200 p-8 text-center">
           <h1 className="text-xl font-bold text-gray-900 mb-2">Database not ready</h1>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600 mb-3">
             Could not reach the database or the portal tables don&apos;t exist yet. Run{" "}
             <code className="bg-gray-100 px-1 rounded">database/migration-payroll.sql</code> first.
+          </p>
+          <p className="text-xs text-left bg-gray-50 border border-gray-200 rounded-lg p-3 font-mono text-red-700 break-words">
+            {message}
           </p>
         </div>
       </div>
