@@ -3,27 +3,30 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const LOGOS: { file: string; alt: string }[] = [
+// `scale` fine-tunes logos whose artwork is tighter/looser than the others so
+// every logo reads at a consistent visual size in the row (1 = default).
+const LOGOS: { file: string; alt: string; scale?: number }[] = [
   { file: "Bluebeam.png", alt: "Bluebeam" },
   { file: "Planswift.png", alt: "PlanSwift" },
   { file: "Revit.png", alt: "Revit" },
   { file: "Autocad.png", alt: "AutoCAD" },
   { file: "Procore.png", alt: "Procore" },
-  { file: "Construct Connect.png", alt: "ConstructConnect" },
+  { file: "Construct Connect.png", alt: "ConstructConnect", scale: 0.7 },
   { file: "SketchUp.png", alt: "SketchUp" },
   { file: "B2W.png", alt: "B2W" },
   { file: "ZZ Takeoff.png", alt: "ZZ Takeoff" },
 ];
 
-function LogoItem({ file, alt }: { file: string; alt: string }) {
+function LogoItem({ file, alt, scale = 1 }: { file: string; alt: string; scale?: number }) {
   return (
-    <div className="flex items-center justify-center shrink-0 px-8 sm:px-12">
+    <div className="flex h-12 sm:h-14 w-36 sm:w-44 items-center justify-center shrink-0 px-6 sm:px-8">
       <Image
         src={`/Sofwares/${encodeURIComponent(file)}`}
         alt={alt}
         width={180}
         height={56}
-        className="h-10 sm:h-12 w-auto object-contain opacity-80 transition-opacity hover:opacity-100"
+        style={{ transform: `scale(${scale})` }}
+        className="max-h-full max-w-full w-auto object-contain opacity-80 transition-opacity hover:opacity-100"
       />
     </div>
   );
