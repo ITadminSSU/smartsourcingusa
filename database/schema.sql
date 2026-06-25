@@ -10,6 +10,8 @@ CREATE TABLE IF NOT EXISTS admin_users (
   email VARCHAR(190) NOT NULL UNIQUE,
   password_hash VARCHAR(255) NOT NULL,
   role VARCHAR(20) NOT NULL DEFAULT 'editor',
+  failed_attempts INT NOT NULL DEFAULT 0,
+  locked_until DATETIME NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -59,6 +61,8 @@ CREATE TABLE IF NOT EXISTS portal_users (
   role VARCHAR(20) NOT NULL DEFAULT 'employee',
   invoice_seq INT NOT NULL DEFAULT 0,
   must_change_password TINYINT(1) NOT NULL DEFAULT 1,
+  failed_attempts INT NOT NULL DEFAULT 0,
+  locked_until DATETIME NULL,
   active TINYINT(1) NOT NULL DEFAULT 1,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -153,4 +157,18 @@ CREATE TABLE IF NOT EXISTS invoice_lines (
   amount DECIMAL(12,2) NOT NULL DEFAULT 0,
   line_type VARCHAR(12) NOT NULL DEFAULT 'regular',
   CONSTRAINT fk_line_inv FOREIGN KEY (invoice_id) REFERENCES invoices(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Self-service "forgot password" tokens (covers both admin_users and portal_users).
+-- user_type is 'admin' or 'portal'. Tokens are stored hashed and are single-use.
+CREATE TABLE IF NOT EXISTS password_resets (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_type VARCHAR(10) NOT NULL,
+  user_id INT NOT NULL,
+  token_hash VARCHAR(255) NOT NULL,
+  expires_at DATETIME NOT NULL,
+  used TINYINT(1) NOT NULL DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_pr_token (token_hash),
+  INDEX idx_pr_user (user_type, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
